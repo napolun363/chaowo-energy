@@ -1,0 +1,13 @@
+# 排除不需要部署的文件
+server.py
+*.xlsx
+.codebuddy/
+.workbuddy/
+
+# 排除大文件（如果需要）
+# 视频文件如果太大可以排除
+# img/hengfu*.mp4
+
+# 保留所有必要的部署文件
+# index.html, style.css, script.js
+# img/, products/, battery-apps/, data/, js/

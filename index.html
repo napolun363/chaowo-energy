@@ -1,0 +1,1670 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="湖北超沃能源科技有限公司 — 专注锂电池定制13年，为无人机、医疗设备、工业机器人、储能系统提供三元锂/磷酸铁锂/聚合物锂电池定制方案，支持BMS/结构/电芯一体化定制，交货周期7-15天，已服务500+企业客户。">
+    <meta name="keywords" content="锂电池定制,锂电池生产厂家,三元锂电池定制,磷酸铁锂电池定制,聚合物锂电池,低温锂电池,无人机电池定制,医疗设备电池,BMS电池管理系统,储能锂电池,湖北锂电池厂家,电池定制厂家,锂电池OEM,异形锂电池,高倍率锂电池">
+    <meta name="author" content="湖北超沃能源科技有限公司">
+    <meta property="og:title" content="湖北超沃能源 — 您的设备该用什么样的电池，我们说了算">
+    <meta property="og:description" content="13年锂电池定制经验，从电芯配方到BMS保护板到结构封装一站式解决。已服务大唐移动、中国电科、清华紫光等500+企业。告诉我你的设备型号，48小时内出定制方案。">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://chaowo-energy.com/img/CWNY.png">
+    <meta property="og:url" content="https://chaowo-energy.com">
+    <title>锂电池定制厂家 | 湖北超沃能源 — 13年专注设备电池定制解决方案</title>
+    <link rel="icon" href="img/CWNY.png" type="image/png">
+    <!-- 预加载首屏关键资源：LOGO -->
+    <link rel="preload" href="img/CWNY.png" as="image" type="image/png">
+    <link rel="stylesheet" href="style.css">
+    <!-- 预连接第三方域名，加速字体/素材加载 -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">
+                <div class="logo-icon">
+                    <img src="img/CWNY.png" alt="湖北超沃能源" width="88" height="40">
+                </div>
+                <h1>湖北超沃能源</h1>
+            </div>
+            <!-- 移动端汉堡菜单按钮 -->
+            <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="打开菜单">&#9776;</button>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#">首页</a></li>
+                <li class="dropdown">
+                    <a href="#products">产品中心</a>
+                    <div class="dropdown-content">
+                        <a href="battery-apps/digital.html" class="dropdown-item">
+                            <div class="dropdown-image dd-icon-svg">
+                                <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <!-- 三元锂电池：高能量密度电池 + NCM标记 -->
+                                    <rect x="10" y="12" width="22" height="30" rx="3.5" stroke="#00aaff" stroke-width="2.4"/>
+                                    <rect x="17" y="7" width="8" height="6" rx="2" fill="#00aaff"/>
+                                    <!-- NCM化学标记 -->
+                                    <text x="21" y="30" text-anchor="middle" fill="#00aaff" font-size="11" font-weight="800" font-family="Arial">NCM</text>
+                                    <!-- 高能量密度箭头 -->
+                                    <path d="M36 14L42 18L36 22" stroke="#e63946" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+                                    <line x1="40" y1="18" x2="44" y2="18" stroke="#e63946" stroke-width="1.8" stroke-linecap="round"/>
+                                    <text x="40" y="26" text-anchor="middle" fill="#e63946" font-size="5.5" font-weight="600" font-family="Arial">高能</text>
+                                    <!-- 电芯条纹 -->
+                                    <line x1="14" y1="36" x2="28" y2="36" stroke="#00aaff" stroke-width="1.2" stroke-linecap="round"/>
+                                </svg>
+                            </div>
+                            <div class="dropdown-text">
+                                <h4>三元锂电池</h4>
+                                <p>能量密度最高，适合对重量/体积有严苛要求的设备</p>
+                            </div>
+                        </a>
+                        <a href="battery-apps/digital.html" class="dropdown-item">
+                            <div class="dropdown-image dd-icon-svg">
+                                <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <!-- 聚合物锂电池：超薄软包电池 -->
+                                    <path d="M8 16 C8 13, 10 11, 14 11 L34 11 C38 11, 40 13, 40 16 L40 34 C40 37, 38 39, 34 39 L14 39 C10 39, 8 37, 8 34 Z"
+                                          stroke="#00aaff" stroke-width="2.2" fill="rgba(0,170,255,0.05)"/>
+                                    <!-- 软包封边 -->
+                                    <path d="M10 16 L10 34" stroke="#00aaff" stroke-width="1.5" stroke-dasharray="3,2"/>
+                                    <!-- 厚度标注 -->
+                                    <line x1="42" y1="15" x2="42" y2="35" stroke="#999" stroke-width="1.2"/>
+                                    <line x1="40" y1="15" x2="44" y2="15" stroke="#999" stroke-width="1"/>
+                                    <line x1="40" y1="35" x2="44" y2="35" stroke="#999" stroke-width="1"/>
+                                    <text x="42" y="26.5" text-anchor="middle" fill="#5599cc" font-size="5.5" font-weight="600" font-family="Arial" transform="rotate(90, 42, 25)">2.5mm</text>
+                                    <!-- 内部电芯 -->
+                                    <rect x="14" y="18" width="20" height="14" rx="1.5" stroke="#5599cc" stroke-width="1.3" fill="none" stroke-dasharray="3,2"/>
+                                    <line x1="20" y1="24" x2="28" y2="24" stroke="#5599cc" stroke-width="1.2" stroke-linecap="round"/>
+                                    <!-- 异形标记 -->
+                                    <circle cx="35" cy="20" r="3" stroke="#28a745" stroke-width="1.2" fill="none"/>
+                                    <text x="35" y="21.5" text-anchor="middle" fill="#28a745" font-size="5" font-weight="700" font-family="Arial">~</text>
+                                </svg>
+                            </div>
+                            <div class="dropdown-text">
+                                <h4>聚合物锂电池</h4>
+                                <p>超薄异形可定制，智能穿戴/医疗设备首选方案</p>
+                            </div>
+                        </a>
+                        <a href="battery-apps/detection.html" class="dropdown-item">
+                            <div class="dropdown-image dd-icon-svg">
+                                <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <!-- 磷酸铁锂电池：安全长寿命电池 -->
+                                    <rect x="9" y="10" width="24" height="32" rx="3" stroke="#00aaff" stroke-width="2.2"/>
+                                    <rect x="16" y="6" width="10" height="5" rx="1.5" fill="#00aaff"/>
+                                    <!-- FePO4标记 -->
+                                    <text x="21" y="27" text-anchor="middle" fill="#00aaff" font-size="7" font-weight="700" font-family="Arial">FePO₄</text>
+                                    <!-- 安全盾牌 -->
+                                    <path d="M36 14 L42 17 L42 24 C42 29, 38 33, 36 34 C34 33, 30 29, 30 24 L30 17 Z"
+                                          stroke="#28a745" stroke-width="1.6" fill="rgba(40,167,69,0.1)" stroke-linejoin="round"/>
+                                    <text x="36" y="26" text-anchor="middle" fill="#28a745" font-size="6" font-weight="700" font-family="Arial">✓</text>
+                                    <!-- 循环寿命 -->
+                                    <path d="M33 38 C33 38, 36 40, 39 38 C42 36, 43 38, 43 38" stroke="#28a745" stroke-width="1.2" stroke-linecap="round" fill="none"/>
+                                    <polygon points="43,37 44,40 41,39" fill="#28a745"/>
+                                    <text x="38" y="44" text-anchor="middle" fill="#28a745" font-size="5.5" font-weight="600" font-family="Arial">2000+</text>
+                                    <!-- 电芯层线 -->
+                                    <line x1="13" y1="33" x2="29" y2="33" stroke="#00aaff" stroke-width="1" stroke-linecap="round"/>
+                                </svg>
+                            </div>
+                            <div class="dropdown-text">
+                                <h4>磷酸铁锂电池</h4>
+                                <p>循环寿命2000次+，储能/动力场景最经济选择</p>
+                            </div>
+                        </a>
+                        <a href="battery-apps/instrument.html" class="dropdown-item">
+                            <div class="dropdown-image dd-icon-svg">
+                                <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <!-- 低温锂电池：电池 + 雪花 + 温度计 -->
+                                    <rect x="10" y="14" width="20" height="26" rx="3" stroke="#00aaff" stroke-width="2.2"/>
+                                    <rect x="16" y="10" width="8" height="5" rx="1.5" fill="#00aaff"/>
+                                    <!-- 雪花 -->
+                                    <g stroke="#5599cc" stroke-width="1.6" stroke-linecap="round">
+                                        <line x1="36" y1="10" x2="36" y2="24"/><line x1="30" y1="17" x2="42" y2="17"/>
+                                        <line x1="32" y1="13" x2="40" y2="21"/><line x1="32" y1="21" x2="40" y2="13"/>
+                                    </g>
+                                    <circle cx="36" cy="17" r="2" fill="#5599cc"/>
+                                    <!-- 温度计 -->
+                                    <rect x="34" y="27" width="4" height="14" rx="2" stroke="#e63946" stroke-width="1.3" fill="none"/>
+                                    <circle cx="36" cy="42" r="3.5" stroke="#e63946" stroke-width="1.3" fill="rgba(230,57,70,0.15)"/>
+                                    <rect x="35" y="31" width="2" height="9" rx="1" fill="#e63946"/>
+                                    <!-- -40°C 标记 -->
+                                    <text x="36" y="47" text-anchor="middle" fill="#e63946" font-size="5" font-weight="700" font-family="Arial">-40℃</text>
+                                    <!-- 电池内纹 -->
+                                    <line x1="14" y1="23" x2="26" y2="23" stroke="#00aaff" stroke-width="1.2" stroke-linecap="round"/>
+                                    <line x1="14" y1="28" x2="26" y2="28" stroke="#00aaff" stroke-width="1.2" stroke-linecap="round"/>
+                                    <line x1="14" y1="33" x2="22" y2="33" stroke="#00aaff" stroke-width="1.2" stroke-linecap="round"/>
+                                </svg>
+                            </div>
+                            <div class="dropdown-text">
+                                <h4>低温锂电池</h4>
+                                <p>耐-40℃极寒环境，植保无人机/户外检测设备专用</p>
+                            </div>
+                        </a>
+                        <a href="battery-apps/robot.html" class="dropdown-item">
+                            <div class="dropdown-image dd-icon-svg">
+                                <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <!-- 高温锂电池：电池 + 火焰/热浪 -->
+                                    <rect x="8" y="14" width="22" height="26" rx="3" stroke="#00aaff" stroke-width="2.2"/>
+                                    <rect x="15" y="10" width="8" height="5" rx="1.5" fill="#00aaff"/>
+                                    <!-- 火焰 -->
+                                    <path d="M36 30 C36 24, 32 20, 34 14 C34 14, 38 18, 38 24 C40 22, 42 24, 42 28 C44 26, 45 30, 43 34 C41 38, 37 38, 36 36 C35 38, 33 37, 33 35 C33 33, 35 32, 36 30Z"
+                                          stroke="#ff6b35" stroke-width="1.6" fill="rgba(255,107,53,0.12)" stroke-linejoin="round"/>
+                                    <!-- 热浪线条 -->
+                                    <path d="M34 8 C36 6, 38 8, 38 10" stroke="#ff6b35" stroke-width="1.2" stroke-linecap="round" fill="none"/>
+                                    <path d="M39 6 C41 4, 43 6, 43 8" stroke="#ffc107" stroke-width="1" stroke-linecap="round" fill="none"/>
+                                    <!-- 85℃标记 -->
+                                    <rect x="34" y="38" width="12" height="7" rx="1.5" stroke="#ff6b35" stroke-width="1.2" fill="rgba(255,107,53,0.06)"/>
+                                    <text x="40" y="43.5" text-anchor="middle" fill="#ff6b35" font-size="6" font-weight="700" font-family="Arial">85℃</text>
+                                    <!-- 电池内纹 -->
+                                    <line x1="12" y1="23" x2="26" y2="23" stroke="#00aaff" stroke-width="1.2" stroke-linecap="round"/>
+                                    <line x1="12" y1="28" x2="26" y2="28" stroke="#00aaff" stroke-width="1.2" stroke-linecap="round"/>
+                                    <line x1="12" y1="33" x2="22" y2="33" stroke="#00aaff" stroke-width="1.2" stroke-linecap="round"/>
+                                </svg>
+                            </div>
+                            <div class="dropdown-text">
+                                <h4>高温锂电池</h4>
+                                <p>85℃高温下稳定放电，工业窑炉/油气勘探专用</p>
+                            </div>
+                        </a>
+                        <a href="battery-apps/detection.html" class="dropdown-item">
+                            <div class="dropdown-image dd-icon-svg">
+                                <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <!-- 防爆锂电池：电池 + 防爆标志 -->
+                                    <rect x="8" y="12" width="22" height="30" rx="3" stroke="#00aaff" stroke-width="2.2"/>
+                                    <rect x="15" y="7" width="8" height="6" rx="1.5" fill="#00aaff"/>
+                                    <!-- 六角防爆标志 -->
+                                    <polygon points="38,6 43,9 43,15 38,18 33,15 33,9"
+                                             stroke="#e63946" stroke-width="1.8" fill="rgba(230,57,70,0.08)" stroke-linejoin="round"/>
+                                    <text x="38" y="14" text-anchor="middle" fill="#e63946" font-size="7" font-weight="800" font-family="Arial">Ex</text>
+                                    <!-- 认证徽章 -->
+                                    <circle cx="38" cy="26" r="7" stroke="#28a745" stroke-width="1.4" fill="none"/>
+                                    <path d="M35 26 L37 28 L41 23" stroke="#28a745" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+                                    <text x="38" y="36" text-anchor="middle" fill="#28a745" font-size="5" font-weight="600" font-family="Arial">认证</text>
+                                    <!-- 警告三角（小型） -->
+                                    <polygon points="38,38 34,44 42,44" stroke="#ffc107" stroke-width="1.2" fill="rgba(255,193,7,0.1)" stroke-linejoin="round"/>
+                                    <text x="38" y="43" text-anchor="middle" fill="#ffc107" font-size="5" font-weight="700" font-family="Arial">!</text>
+                                    <!-- 电池内纹 -->
+                                    <line x1="12" y1="22" x2="26" y2="22" stroke="#00aaff" stroke-width="1.2" stroke-linecap="round"/>
+                                    <line x1="12" y1="27" x2="26" y2="27" stroke="#00aaff" stroke-width="1.2" stroke-linecap="round"/>
+                                    <line x1="12" y1="32" x2="22" y2="32" stroke="#00aaff" stroke-width="1.2" stroke-linecap="round"/>
+                                </svg>
+                            </div>
+                            <div class="dropdown-text">
+                                <h4>防爆锂电池</h4>
+                                <p>通过防爆认证，煤矿/化工/易燃易爆环境专用</p>
+                            </div>
+                        </a>
+                        <a href="battery-apps/energy.html" class="dropdown-item">
+                            <div class="dropdown-image dd-icon-svg">
+                                <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <!-- 储能电池组：三块堆叠电池 + 充电闪电 -->
+                                    <rect x="8" y="14" width="18" height="28" rx="2.5" stroke="#00aaff" stroke-width="2.2"/>
+                                    <rect x="15" y="10" width="4" height="5" rx="1" fill="#00aaff"/>
+                                    <line x1="13" y1="22" x2="21" y2="22" stroke="#00aaff" stroke-width="1.8" stroke-linecap="round"/>
+                                    <line x1="13" y1="27" x2="21" y2="27" stroke="#00aaff" stroke-width="1.8" stroke-linecap="round"/>
+                                    <line x1="13" y1="32" x2="19" y2="32" stroke="#00aaff" stroke-width="1.8" stroke-linecap="round"/>
+                                    <!-- 第二块电池 -->
+                                    <rect x="28" y="20" width="14" height="22" rx="2" stroke="#5599cc" stroke-width="2"/>
+                                    <rect x="33" y="17" width="3" height="4" rx="0.8" fill="#5599cc"/>
+                                    <path d="M33 27L36 24L39 29" stroke="#5599cc" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+                                    <!-- 太阳能板 -->
+                                    <circle cx="36" cy="10" r="5" stroke="#ffc107" stroke-width="1.5"/>
+                                    <line x1="36" y1="5" x2="36" y2="3" stroke="#ffc107" stroke-width="1.5" stroke-linecap="round"/>
+                                    <line x1="41" y1="10" x2="43" y2="10" stroke="#ffc107" stroke-width="1.5" stroke-linecap="round"/>
+                                    <line x1="31" y1="10" x2="29" y2="10" stroke="#ffc107" stroke-width="1.5" stroke-linecap="round"/>
+                                </svg>
+                            </div>
+                            <div class="dropdown-text">
+                                <h4>储能锂电池</h4>
+                                <p>大容量堆叠方案，光伏储能/通信基站/备用电源</p>
+                            </div>
+                        </a>
+                        <a href="battery-apps/instrument.html" class="dropdown-item">
+                            <div class="dropdown-image dd-icon-svg">
+                                <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <!-- 智能锂电池：电池 + 芯片 + WiFi信号 -->
+                                    <rect x="10" y="16" width="20" height="26" rx="3" stroke="#00aaff" stroke-width="2.2"/>
+                                    <rect x="17" y="11" width="6" height="6" rx="1.5" fill="#00aaff"/>
+                                    <text x="20" y="32" text-anchor="middle" fill="#00aaff" font-size="10" font-weight="700" font-family="Arial">AI</text>
+                                    <!-- WiFi信号 -->
+                                    <path d="M34 18C37.3 18 40 20.7 40 24" stroke="#00aaff" stroke-width="1.8" stroke-linecap="round" fill="none"/>
+                                    <path d="M34 22C35.7 22 37 23.3 37 25" stroke="#00aaff" stroke-width="1.8" stroke-linecap="round" fill="none"/>
+                                    <circle cx="34" cy="28" r="1.8" fill="#00aaff"/>
+                                    <!-- 数据线 -->
+                                    <path d="M30 30H34" stroke="#5599cc" stroke-width="1.5" stroke-dasharray="2,2"/>
+                                    <!-- 芯片 -->
+                                    <rect x="32" y="8" width="10" height="7" rx="1.5" stroke="#5599cc" stroke-width="1.5" fill="none"/>
+                                    <line x1="35" y1="8" x2="35" y2="5" stroke="#5599cc" stroke-width="1.2"/>
+                                    <line x1="39" y1="8" x2="39" y2="5" stroke="#5599cc" stroke-width="1.2"/>
+                                    <line x1="35" y1="15" x2="35" y2="18" stroke="#5599cc" stroke-width="1.2"/>
+                                    <line x1="39" y1="15" x2="39" y2="18" stroke="#5599cc" stroke-width="1.2"/>
+                                </svg>
+                            </div>
+                            <div class="dropdown-text">
+                                <h4>智能锂电池</h4>
+                                <p>内置SOC/SOH算法，支持RS485/CAN/蓝牙通信</p>
+                            </div>
+                        </a>
+                        <a href="battery-apps/digital.html" class="dropdown-item">
+                            <div class="dropdown-image dd-icon-svg">
+                                <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <!-- 异形锂电池：不规则形状电池轮廓 -->
+                                    <path d="M12 28 C12 20, 8 16, 14 12 C20 8, 28 6, 34 10 C40 14, 42 22, 38 30 C34 38, 26 42, 18 38 C14 36, 12 34, 12 28Z"
+                                          stroke="#00aaff" stroke-width="2.2" fill="rgba(0,170,255,0.06)"/>
+                                    <!-- 尺寸标注线 -->
+                                    <line x1="12" y1="44" x2="38" y2="44" stroke="#999" stroke-width="1.2"/>
+                                    <line x1="12" y1="42" x2="12" y2="46" stroke="#999" stroke-width="1.2"/>
+                                    <line x1="38" y1="42" x2="38" y2="46" stroke="#999" stroke-width="1.2"/>
+                                    <text x="25" y="47" text-anchor="middle" fill="#999" font-size="7" font-family="Arial">定制</text>
+                                    <!-- 内部电芯示意 -->
+                                    <rect x="18" y="18" width="14" height="16" rx="2" stroke="#00aaff" stroke-width="1.4" fill="none" stroke-dasharray="3,2"/>
+                                    <line x1="22" y1="24" x2="28" y2="24" stroke="#00aaff" stroke-width="1.2" stroke-linecap="round"/>
+                                    <line x1="22" y1="28" x2="26" y2="28" stroke="#00aaff" stroke-width="1.2" stroke-linecap="round"/>
+                                    <!-- 精度标记 -->
+                                    <text x="36" y="20" fill="#00aaff" font-size="6" font-weight="600" font-family="Arial">0.1mm</text>
+                                </svg>
+                            </div>
+                            <div class="dropdown-text">
+                                <h4>异形锂电池</h4>
+                                <p>空间受限？告诉我们尺寸，0.1mm精度定制封装</p>
+                            </div>
+                        </a>
+                        <a href="battery-apps/iot.html" class="dropdown-item">
+                            <div class="dropdown-image dd-icon-svg">
+                                <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <!-- 锂亚电池：纽扣电池 + 时钟/长期 -->
+                                    <ellipse cx="20" cy="26" rx="14" ry="14" stroke="#00aaff" stroke-width="2.2"/>
+                                    <ellipse cx="20" cy="26" rx="10" ry="10" stroke="#00aaff" stroke-width="1.4"/>
+                                    <text x="20" y="29" text-anchor="middle" fill="#00aaff" font-size="8" font-weight="700" font-family="Arial">Li</text>
+                                    <!-- 正极标记 -->
+                                    <circle cx="20" cy="14" r="2.5" fill="#e63946"/>
+                                    <text x="20" y="15.5" text-anchor="middle" fill="#fff" font-size="5" font-weight="700" font-family="Arial">+</text>
+                                    <!-- 10年时钟 -->
+                                    <circle cx="36" cy="14" r="9" stroke="#5599cc" stroke-width="1.6" fill="none"/>
+                                    <line x1="36" y1="14" x2="36" y2="8" stroke="#5599cc" stroke-width="1.4" stroke-linecap="round"/>
+                                    <line x1="36" y1="14" x2="41" y2="16" stroke="#5599cc" stroke-width="1.4" stroke-linecap="round"/>
+                                    <text x="36" y="27" text-anchor="middle" fill="#5599cc" font-size="6" font-weight="600" font-family="Arial">10年</text>
+                                    <!-- 长效箭头 -->
+                                    <path d="M6 38C6 38, 10 42, 14 40" stroke="#28a745" stroke-width="1.4" stroke-linecap="round" fill="none"/>
+                                    <polygon points="15,39 14,42 17,41" fill="#28a745"/>
+                                </svg>
+                            </div>
+                            <div class="dropdown-text">
+                                <h4>锂亚电池</h4>
+                                <p>10年超长待机，物联网表计/地下管网监测专用</p>
+                            </div>
+                        </a>
+                    </div>
+                </li>
+                <li class="dropdown">
+                    <a href="#custom">电池定制</a>
+                    <div class="dropdown-content">
+                        <a href="#custom" class="dropdown-item">
+                            <div class="dropdown-image dd-icon-svg">
+                                <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <!-- BMS电池管理定制：PCB电路板 + 保护芯片 -->
+                                    <rect x="6" y="10" width="36" height="28" rx="2.5" stroke="#00aaff" stroke-width="2"/>
+                                    <!-- PCB走线 -->
+                                    <path d="M10 18H16V24H22V30" stroke="#5599cc" stroke-width="1.3" stroke-linecap="round" fill="none" stroke-dasharray="none"/>
+                                    <path d="M38 18H32V22H28V26" stroke="#5599cc" stroke-width="1.3" stroke-linecap="round" fill="none"/>
+                                    <line x1="16" y1="14" x2="16" y2="34" stroke="#ddd" stroke-width="0.8"/>
+                                    <line x1="24" y1="14" x2="24" y2="34" stroke="#ddd" stroke-width="0.8"/>
+                                    <line x1="32" y1="14" x2="32" y2="34" stroke="#ddd" stroke-width="0.8"/>
+                                    <!-- 主控芯片 -->
+                                    <rect x="18" y="17" width="12" height="10" rx="1.5" stroke="#00aaff" stroke-width="1.8" fill="rgba(0,170,255,0.06)"/>
+                                    <text x="24" y="24.5" text-anchor="middle" fill="#00aaff" font-size="7" font-weight="700" font-family="Arial">BMS</text>
+                                    <!-- MOSFET管 -->
+                                    <rect x="10" y="27" width="5" height="4" rx="0.5" stroke="#28a745" stroke-width="1.2" fill="rgba(40,167,69,0.1)"/>
+                                    <rect x="33" y="27" width="5" height="4" rx="0.5" stroke="#e63946" stroke-width="1.2" fill="rgba(230,57,70,0.08)"/>
+                                    <!-- 引脚 -->
+                                    <line x1="8" y1="16" x2="6" y2="16" stroke="#999" stroke-width="1.2"/><circle cx="5" cy="16" r="1.2" fill="#999"/>
+                                    <line x1="8" y1="24" x2="6" y2="24" stroke="#999" stroke-width="1.2"/><circle cx="5" cy="24" r="1.2" fill="#999"/>
+                                    <line x1="8" y1="32" x2="6" y2="32" stroke="#999" stroke-width="1.2"/><circle cx="5" cy="32" r="1.2" fill="#999"/>
+                                    <line x1="40" y1="16" x2="42" y2="16" stroke="#999" stroke-width="1.2"/><circle cx="43" cy="16" r="1.2" fill="#999"/>
+                                    <line x1="40" y1="24" x2="42" y2="24" stroke="#999" stroke-width="1.2"/><circle cx="43" cy="24" r="1.2" fill="#999"/>
+                                    <line x1="40" y1="32" x2="42" y2="32" stroke="#999" stroke-width="1.2"/><circle cx="43" cy="32" r="1.2" fill="#999"/>
+                                    <!-- 五重保护标记 -->
+                                    <text x="24" y="44" text-anchor="middle" fill="#5599cc" font-size="5.5" font-weight="600" font-family="Arial">五重保护 · 均衡管理</text>
+                                </svg>
+                            </div>
+                            <div class="dropdown-text">
+                                <h4>BMS电池管理定制</h4>
+                                <p>过充/过放/过流/短路/温控五重保护，支持主动均衡</p>
+                            </div>
+                        </a>
+                        <a href="#custom" class="dropdown-item">
+                            <div class="dropdown-image dd-icon-svg">
+                                <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <!-- 结构封装定制：外壳剖面 + IP防水 + 尺寸 -->
+                                    <rect x="10" y="8" width="20" height="32" rx="2.5" stroke="#00aaff" stroke-width="2" fill="rgba(0,170,255,0.04)"/>
+                                    <!-- 内部电池示意 -->
+                                    <rect x="14" y="12" width="12" height="24" rx="2" stroke="#5599cc" stroke-width="1.4" fill="none" stroke-dasharray="3,2"/>
+                                    <line x1="18" y1="20" x2="22" y2="20" stroke="#5599cc" stroke-width="1" stroke-linecap="round"/>
+                                    <line x1="18" y1="25" x2="22" y2="25" stroke="#5599cc" stroke-width="1" stroke-linecap="round"/>
+                                    <line x1="18" y1="30" x2="22" y2="30" stroke="#5599cc" stroke-width="1" stroke-linecap="round"/>
+                                    <!-- 尺寸标注线 -->
+                                    <line x1="10" y1="44" x2="30" y2="44" stroke="#999" stroke-width="1.2"/>
+                                    <line x1="10" y1="42" x2="10" y2="46" stroke="#999" stroke-width="1"/>
+                                    <line x1="30" y1="42" x2="30" y2="46" stroke="#999" stroke-width="1"/>
+                                    <polygon points="11,42 10,44 11,46" fill="#999"/>
+                                    <polygon points="29,42 30,44 29,46" fill="#999"/>
+                                    <!-- IP防水标志 -->
+                                    <rect x="33" y="10" width="12" height="14" rx="3" stroke="#28a745" stroke-width="1.6" fill="rgba(40,167,69,0.06)"/>
+                                    <text x="39" y="19" text-anchor="middle" fill="#28a745" font-size="7" font-weight="800" font-family="Arial">IP</text>
+                                    <line x1="35" y1="21" x2="43" y2="21" stroke="#28a745" stroke-width="1"/>
+                                    <text x="39" y="26" text-anchor="middle" fill="#28a745" font-size="5" font-weight="600" font-family="Arial">67</text>
+                                    <!-- 材质选项 -->
+                                    <circle cx="39" cy="33" r="5" stroke="#ffc107" stroke-width="1.3" fill="none"/>
+                                    <text x="39" y="35" text-anchor="middle" fill="#ffc107" font-size="5" font-weight="700" font-family="Arial">金</text>
+                                    <circle cx="39" cy="42" r="4" stroke="#5599cc" stroke-width="1.2" fill="none"/>
+                                    <text x="39" y="43.5" text-anchor="middle" fill="#5599cc" font-size="4.5" font-weight="600" font-family="Arial">塑</text>
+                                    <!-- 异形箭头 -->
+                                    <path d="M33 6 C36 3, 40 4, 41 7" stroke="#e63946" stroke-width="1.2" stroke-linecap="round" fill="none"/>
+                                    <polygon points="42,6 41,8 40,6" fill="#e63946"/>
+                                </svg>
+                            </div>
+                            <div class="dropdown-text">
+                                <h4>结构封装定制</h4>
+                                <p>IP65/IP67防水、金属/塑胶/异形外壳，适配您的设备空间</p>
+                            </div>
+                        </a>
+                        <a href="#custom" class="dropdown-item">
+                            <div class="dropdown-image dd-icon-svg">
+                                <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <!-- 电芯参数定制：电芯单元 + 参数仪表盘 -->
+                                    <!-- 电芯主体 -->
+                                    <rect x="6" y="14" width="18" height="26" rx="3" stroke="#00aaff" stroke-width="2.2"/>
+                                    <rect x="12" y="10" width="6" height="5" rx="1.5" fill="#00aaff"/>
+                                    <!-- 卷绕层示意 -->
+                                    <path d="M10 20 Q15 23, 20 20 Q15 27, 10 24" stroke="#5599cc" stroke-width="1.2" fill="none"/>
+                                    <path d="M10 28 Q15 31, 20 28 Q15 35, 10 32" stroke="#5599cc" stroke-width="1.2" fill="none"/>
+                                    <!-- 正负极 -->
+                                    <circle cx="15" cy="18" r="2" fill="#e63946"/><text x="15" y="19" text-anchor="middle" fill="#fff" font-size="4" font-weight="700">+</text>
+                                    <circle cx="15" cy="36" r="2" fill="#28a745"/><text x="15" y="37" text-anchor="middle" fill="#fff" font-size="4" font-weight="700">−</text>
+                                    <!-- 参数面板 -->
+                                    <rect x="28" y="8" width="16" height="24" rx="2" stroke="#5599cc" stroke-width="1.6" fill="rgba(85,153,204,0.04)"/>
+                                    <!-- 电压参数 -->
+                                    <text x="36" y="14" text-anchor="middle" fill="#00aaff" font-size="5" font-weight="600" font-family="Arial">电压 V</text>
+                                    <line x1="31" y1="17" x2="41" y2="17" stroke="#ddd" stroke-width="0.8"/>
+                                    <rect x="32" y="18" width="8" height="2.5" rx="0.5" fill="#00aaff"/>
+                                    <!-- 容量参数 -->
+                                    <text x="36" y="25" text-anchor="middle" fill="#28a745" font-size="5" font-weight="600" font-family="Arial">容量 Ah</text>
+                                    <line x1="31" y1="28" x2="41" y2="28" stroke="#ddd" stroke-width="0.8"/>
+                                    <rect x="32" y="29" width="6" height="2.5" rx="0.5" fill="#28a745"/>
+                                    <!-- 调节滑块 -->
+                                    <circle cx="36" cy="37" r="5" stroke="#ff6b35" stroke-width="1.4" fill="rgba(255,107,53,0.1)"/>
+                                    <line x1="33" y1="37" x2="39" y2="37" stroke="#ff6b35" stroke-width="1.5" stroke-linecap="round"/>
+                                    <circle cx="37" cy="37" r="1.5" fill="#ff6b35"/>
+                                    <text x="36" y="45" text-anchor="middle" fill="#ff6b35" font-size="5" font-weight="600" font-family="Arial">匹配</text>
+                                </svg>
+                            </div>
+                            <div class="dropdown-text">
+                                <h4>电芯参数定制</h4>
+                                <p>电压/容量/倍率/温度范围按您的应用场景精确匹配</p>
+                            </div>
+                        </a>
+                    </div>
+                </li>
+                <li class="dropdown">
+                    <a href="#applications">电池应用</a>
+                    <div class="dropdown-content">
+                        <a href="battery-apps/digital.html" class="dropdown-item">
+                            <div class="dropdown-image dd-icon-svg">
+                                <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <!-- 智能穿戴设备：智能手表 + 心率 -->
+                                    <!-- 表盘外框 -->
+                                    <rect x="14" y="4" width="20" height="34" rx="6" stroke="#00aaff" stroke-width="2.2" fill="rgba(0,170,255,0.04)"/>
+                                    <!-- 表带 -->
+                                    <rect x="16" y="0" width="16" height="5" rx="2" fill="#5599cc"/>
+                                    <rect x="16" y="37" width="16" height="7" rx="2" fill="#5599cc"/>
+                                    <!-- 屏幕 -->
+                                    <rect x="17" y="8" width="14" height="22" rx="3" stroke="#5599cc" stroke-width="1.2" fill="rgba(85,153,204,0.06)"/>
+                                    <!-- 心率图标 -->
+                                    <polyline points="19,18 21,18 23,13 26,24 28,19 30,19"
+                                              stroke="#e63946" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+                                    <!-- 步数/数据 -->
+                                    <circle cx="22" cy="27" r="2.5" stroke="#28a745" stroke-width="1.2" fill="none"/>
+                                    <text x="22" y="28" text-anchor="middle" fill="#28a745" font-size="4" font-weight="700" font-family="Arial">♦</text>
+                                    <text x="28" y="27" fill="#5599cc" font-size="4" font-weight="600" font-family="Arial">8K</text>
+                                    <!-- 超薄标记 -->
+                                    <line x1="36" y1="12" x2="44" y2="12" stroke="#999" stroke-width="1"/>
+                                    <line x1="36" y1="10" x2="36" y2="14" stroke="#999" stroke-width="0.8"/>
+                                    <line x1="44" y1="10" x2="44" y2="14" stroke="#999" stroke-width="0.8"/>
+                                    <text x="40" y="11" text-anchor="middle" fill="#ffc107" font-size="5" font-weight="700" font-family="Arial">2.5mm</text>
+                                    <!-- AR眼镜小标记 -->
+                                    <path d="M36 22 L42 20 L44 24 L40 26 Z" stroke="#00aaff" stroke-width="1.2" fill="rgba(0,170,255,0.08)" stroke-linejoin="round"/>
+                                    <line x1="38" y1="23" x2="42" y2="23" stroke="#00aaff" stroke-width="0.8" stroke-linecap="round"/>
+                                    <!-- 手环变体提示 -->
+                                    <ellipse cx="40" cy="35" rx="5" ry="7" stroke="#5599cc" stroke-width="1.2" fill="none"/>
+                                    <rect x="38" y="31" width="4" height="3" rx="0.8" fill="rgba(85,153,204,0.15)"/>
+                                    <text x="40" y="37" text-anchor="middle" fill="#5599cc" font-size="4" font-weight="600" font-family="Arial">环</text>
+                                </svg>
+                            </div>
+                            <div class="dropdown-text">
+                                <h4>智能穿戴设备</h4>
+                                <p>手表/手环/AR眼镜 — 最薄2.5mm，异形任意定制</p>
+                            </div>
+                        </a>
+                        <a href="battery-apps/digital.html" class="dropdown-item">
+                            <div class="dropdown-image dd-icon-svg">
+                                <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <rect x="12" y="6" width="18" height="34" rx="3" stroke="#00aaff" stroke-width="2.2"/>
+                                    <line x1="12" y1="10" x2="30" y2="10" stroke="#00aaff" stroke-width="1"/>
+                                    <line x1="19" y1="38" x2="23" y2="38" stroke="#00aaff" stroke-width="1.5" stroke-linecap="round"/>
+                                    <rect x="15" y="13" width="12" height="21" rx="1" fill="rgba(0,170,255,0.08)"/>
+                                    <rect x="17" y="22" width="8" height="10" rx="1.5" stroke="#28a745" stroke-width="1.6" fill="none"/>
+                                    <rect x="23.5" y="24" width="1" height="6" rx="0.5" fill="#28a745"/>
+                                    <rect x="32" y="14" width="12" height="18" rx="2" stroke="#5599cc" stroke-width="1.8"/>
+                                    <rect x="34" y="17" width="8" height="11" rx="1" fill="rgba(85,153,204,0.08)"/>
+                                    <path d="M36 23L38 20L40 24L42 21" stroke="#5599cc" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+                                </svg>
+                            </div>
+                            <div class="dropdown-text">
+                                <h4>智能数码产品</h4>
+                                <p>手机/平板/便携设备 — 高能量密度，轻薄长续航</p>
+                            </div>
+                        </a>
+                        <a href="battery-apps/iot.html" class="dropdown-item">
+                            <div class="dropdown-image dd-icon-svg">
+                                <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <circle cx="24" cy="24" r="6" fill="#00aaff"/>
+                                    <circle cx="24" cy="24" r="3" fill="#fff"/>
+                                    <circle cx="24" cy="8" r="4" stroke="#5599cc" stroke-width="1.8" fill="rgba(85,153,204,0.15)"/>
+                                    <line x1="24" y1="18" x2="24" y2="12" stroke="#ccc" stroke-width="1.2"/>
+                                    <circle cx="40" cy="18" r="4" stroke="#5599cc" stroke-width="1.8" fill="rgba(85,153,204,0.15)"/>
+                                    <line x1="29" y1="21" x2="36" y2="19" stroke="#ccc" stroke-width="1.2"/>
+                                    <circle cx="40" cy="32" r="4" stroke="#5599cc" stroke-width="1.8" fill="rgba(85,153,204,0.15)"/>
+                                    <line x1="29" y1="27" x2="36" y2="30" stroke="#ccc" stroke-width="1.2"/>
+                                    <circle cx="24" cy="40" r="4" stroke="#5599cc" stroke-width="1.8" fill="rgba(85,153,204,0.15)"/>
+                                    <line x1="24" y1="30" x2="24" y2="36" stroke="#ccc" stroke-width="1.2"/>
+                                    <circle cx="8" cy="32" r="4" stroke="#5599cc" stroke-width="1.8" fill="rgba(85,153,204,0.15)"/>
+                                    <line x1="19" y1="27" x2="12" y2="30" stroke="#ccc" stroke-width="1.2"/>
+                                    <circle cx="8" cy="16" r="4" stroke="#5599cc" stroke-width="1.8" fill="rgba(85,153,204,0.15)"/>
+                                    <line x1="19" y1="21" x2="12" y2="18" stroke="#ccc" stroke-width="1.2"/>
+                                    <circle cx="26" cy="14" r="1" fill="#ffc107"/><circle cx="33" cy="17" r="1" fill="#ffc107"/>
+                                </svg>
+                            </div>
+                            <div class="dropdown-text">
+                                <h4>物联网(IoT)设备</h4>
+                                <p>表计/传感器/追踪器 — 锂亚电池10年免维护</p>
+                            </div>
+                        </a>
+                        <a href="battery-apps/smartcity.html" class="dropdown-item">
+                            <div class="dropdown-image dd-icon-svg">
+                                <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <line x1="4" y1="40" x2="44" y2="40" stroke="#ddd" stroke-width="1.5"/>
+                                    <rect x="8" y="14" width="10" height="26" rx="1" stroke="#00aaff" stroke-width="2" fill="rgba(0,170,255,0.06)"/>
+                                    <polygon points="13,10 16,14 10,14" fill="#00aaff"/>
+                                    <line x1="11" y1="19" x2="15" y2="19" stroke="#00aaff" stroke-width="1.2" stroke-linecap="round"/>
+                                    <line x1="11" y1="23" x2="15" y2="23" stroke="#00aaff" stroke-width="1.2" stroke-linecap="round"/>
+                                    <line x1="11" y1="27" x2="15" y2="27" stroke="#00aaff" stroke-width="1.2" stroke-linecap="round"/>
+                                    <line x1="11" y1="31" x2="15" y2="31" stroke="#00aaff" stroke-width="1.2" stroke-linecap="round"/>
+                                    <line x1="11" y1="35" x2="15" y2="35" stroke="#00aaff" stroke-width="1.2" stroke-linecap="round"/>
+                                    <rect x="20" y="22" width="8" height="18" rx="1" stroke="#5599cc" stroke-width="1.8" fill="rgba(85,153,204,0.06)"/>
+                                    <rect x="22" y="25" width="4" height="3" rx="0.5" stroke="#5599cc" stroke-width="1" fill="none"/>
+                                    <rect x="22" y="30" width="4" height="3" rx="0.5" stroke="#5599cc" stroke-width="1" fill="none"/>
+                                    <rect x="22" y="35" width="4" height="3" rx="0.5" stroke="#5599cc" stroke-width="1" fill="none"/>
+                                    <rect x="30" y="28" width="12" height="12" rx="1" stroke="#5599cc" stroke-width="1.6" fill="rgba(85,153,204,0.06)"/>
+                                    <line x1="33" y1="32" x2="39" y2="32" stroke="#5599cc" stroke-width="1" stroke-linecap="round"/>
+                                    <line x1="33" y1="36" x2="39" y2="36" stroke="#5599cc" stroke-width="1" stroke-linecap="round"/>
+                                    <path d="M36 8C39.3 8 42 10.7 42 14" stroke="#ffc107" stroke-width="1.4" stroke-linecap="round" fill="none"/>
+                                    <path d="M36 11C37.7 11 39 12.3 39 14" stroke="#ffc107" stroke-width="1.4" stroke-linecap="round" fill="none"/>
+                                    <circle cx="36" cy="16" r="1.5" fill="#ffc107"/>
+                                </svg>
+                            </div>
+                            <div class="dropdown-text">
+                                <h4>智慧城市基础设施</h4>
+                                <p>交通监控/智能路灯/安防设备 — 宽温工作，免维护</p>
+                            </div>
+                        </a>
+                        <a href="battery-apps/agriculture.html" class="dropdown-item">
+                            <div class="dropdown-image dd-icon-svg">
+                                <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M24 8 C36 8, 42 18, 42 30 C42 38, 34 42, 24 42 C14 42, 6 38, 6 30 C6 18, 12 8, 24 8Z" stroke="#28a745" stroke-width="2" fill="rgba(40,167,69,0.08)"/>
+                                    <path d="M24 14V36" stroke="#28a745" stroke-width="1.3" stroke-linecap="round"/>
+                                    <path d="M24 20 C18 18, 12 20, 10 26" stroke="#28a745" stroke-width="1" stroke-linecap="round" fill="none"/>
+                                    <path d="M24 26 C30 24, 36 26, 38 32" stroke="#28a745" stroke-width="1" stroke-linecap="round" fill="none"/>
+                                    <path d="M24 32 C19 31, 14 33, 12 37" stroke="#28a745" stroke-width="1" stroke-linecap="round" fill="none"/>
+                                    <path d="M36 10 C36 10, 40 16, 40 19 C40 21.2, 38.2 23, 36 23 C33.8 23, 32 21.2, 32 19 C32 16, 36 10, 36 10Z" stroke="#00aaff" stroke-width="1.6" fill="rgba(0,170,255,0.15)"/>
+                                    <circle cx="12" cy="14" r="4" stroke="#5599cc" stroke-width="1.5" fill="#fff"/>
+                                    <circle cx="12" cy="14" r="1.5" fill="#5599cc"/>
+                                    <line x1="12" y1="10" x2="12" y2="7" stroke="#5599cc" stroke-width="1.2" stroke-dasharray="2,1"/>
+                                    <line x1="4" y1="44" x2="44" y2="44" stroke="#c4a574" stroke-width="2" stroke-linecap="round"/>
+                                    <line x1="6" y1="44" x2="4" y2="40" stroke="#c4a574" stroke-width="1" stroke-linecap="round"/>
+                                    <line x1="14" y1="44" x2="12" y2="41" stroke="#c4a574" stroke-width="1" stroke-linecap="round"/>
+                                    <line x1="34" y1="44" x2="36" y2="41" stroke="#c4a574" stroke-width="1" stroke-linecap="round"/>
+                                    <line x1="42" y1="44" x2="44" y2="40" stroke="#c4a574" stroke-width="1" stroke-linecap="round"/>
+                                </svg>
+                            </div>
+                            <div class="dropdown-text">
+                                <h4>智慧农业设备</h4>
+                                <p>灌溉控制器/环境监测 — 耐候设计，户外长期稳定</p>
+                            </div>
+                        </a>
+                        <a href="battery-apps/medical.html" class="dropdown-item">
+                            <div class="dropdown-image dd-icon-svg">
+                                <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <rect x="8" y="10" width="24" height="30" rx="3" stroke="#e63946" stroke-width="2.2" fill="rgba(230,57,70,0.05)"/>
+                                    <rect x="11" y="14" width="18" height="14" rx="2" stroke="#e63946" stroke-width="1.4" fill="rgba(230,57,70,0.04)"/>
+                                    <polyline points="13,22 17,22 19,16 22,28 24,20 27,22" stroke="#e63946" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+                                    <text x="13" y="35" fill="#e63946" font-size="6" font-weight="600" font-family="Arial">HR</text>
+                                    <text x="20" y="35" fill="#333" font-size="6" font-weight="700" font-family="Arial">72</text>
+                                    <text x="25" y="35" fill="#999" font-size="5" font-family="Arial">bpm</text>
+                                    <rect x="36" y="8" width="8" height="8" rx="1" fill="#fff" stroke="#e63946" stroke-width="1.8"/>
+                                    <rect x="38.5" y="6" width="3" height="12" rx="0.8" fill="#e63946"/>
+                                    <rect x="34" y="9.5" width="12" height="3" rx="0.8" fill="#e63946"/>
+                                    <path d="M32 25H36" stroke="#ccc" stroke-width="1.2" stroke-dasharray="2,2"/>
+                                </svg>
+                            </div>
+                            <div class="dropdown-text">
+                                <h4>医疗护理设备</h4>
+                                <p>B超/监护仪/呼吸机 — 通过医疗认证，安全可靠性优先</p>
+                            </div>
+                        </a>
+                        <a href="battery-apps/instrument.html" class="dropdown-item">
+                            <div class="dropdown-image dd-icon-svg">
+                                <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <rect x="10" y="12" width="18" height="28" rx="3" stroke="#ff6b35" stroke-width="2.2" fill="rgba(255,107,53,0.05)"/>
+                                    <rect x="13" y="16" width="12" height="14" rx="1.5" stroke="#ff6b35" stroke-width="1.4" fill="rgba(255,107,53,0.06)"/>
+                                    <polyline points="15,25 17.5,21 20,28 22.5,19 25,25" stroke="#ff6b35" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+                                    <text x="15" y="35" fill="#333" font-size="6" font-weight="700" font-family="Arial">OK</text>
+                                    <rect x="21" y="32" width="4" height="5" rx="0.5" stroke="#28a745" stroke-width="1" fill="rgba(40,167,69,0.15)"/>
+                                    <rect x="28" y="20" width="10" height="8" rx="2" stroke="#5599cc" stroke-width="1.8" fill="rgba(85,153,204,0.08)"/>
+                                    <line x1="38" y1="24" x2="43" y2="24" stroke="#5599cc" stroke-width="2" stroke-linecap="round"/>
+                                    <circle cx="44" cy="24" r="2" stroke="#5599cc" stroke-width="1.5" fill="#fff"/>
+                                    <circle cx="19" cy="37" r="1.5" fill="#28a745"/>
+                                </svg>
+                            </div>
+                            <div class="dropdown-text">
+                                <h4>工业检测仪器</h4>
+                                <p>手持检测仪/无损探伤 — 高倍率放电，快速充电</p>
+                            </div>
+                        </a>
+                        <a href="battery-apps/detection.html" class="dropdown-item">
+                            <div class="dropdown-image dd-icon-svg">
+                                <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <!-- 检验探测设备：探测器 + 扫描波束 + 精度 -->
+                                    <!-- 设备主体 -->
+                                    <rect x="6" y="16" width="20" height="22" rx="3" stroke="#00aaff" stroke-width="2.2" fill="rgba(0,170,255,0.04)"/>
+                                    <rect x="10" y="12" width="12" height="5" rx="1.5" fill="#00aaff"/>
+                                    <!-- 屏幕显示 -->
+                                    <rect x="9" y="20" width="14" height="10" rx="1.5" stroke="#5599cc" stroke-width="1.2" fill="rgba(85,153,204,0.06)"/>
+                                    <!-- 波形显示 -->
+                                    <polyline points="11,25 13,23 15,27 17,22 19,26 21,24"
+                                              stroke="#28a745" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+                                    <!-- 数值读数 -->
+                                    <text x="12" y="28" fill="#e63946" font-size="4" font-weight="700" font-family="Arial">128</text>
+                                    <!-- 探测波束（激光/雷达） -->
+                                    <line x1="26" y1="27" x2="38" y2="20" stroke="#ff6b35" stroke-width="1.8" stroke-linecap="round"/>
+                                    <line x1="26" y1="29" x2="40" y2="29" stroke="#ff6b35" stroke-width="1.8" stroke-linecap="round"/>
+                                    <line x1="26" y1="31" x2="38" y2="38" stroke="#ff6b35" stroke-width="1.8" stroke-linecap="round"/>
+                                    <!-- 目标点 -->
+                                    <circle cx="40" cy="20" r="3" stroke="#ff6b35" stroke-width="1.2" fill="none"/>
+                                    <circle cx="42" cy="29" r="3" stroke="#ff6b35" stroke-width="1.2" fill="none"/>
+                                    <circle cx="40" cy="38" r="3" stroke="#ff6b35" stroke-width="1.2" fill="none"/>
+                                    <!-- 发射头 -->
+                                    <polygon points="28,25 33,27 28,29" fill="#ff6b35"/>
+                                    <!-- 精度标记 -->
+                                    <rect x="32" y="6" width="13" height="8" rx="1.5" stroke="#5599cc" stroke-width="1.2" fill="rgba(85,153,204,0.05)"/>
+                                    <text x="38.5" y="12" text-anchor="middle" fill="#5599cc" font-size="6" font-weight="700" font-family="Arial">0.01m</text>
+                                    <!-- 耐低温标记（高原极地） -->
+                                    <g stroke="#5599cc" stroke-width="1.2" stroke-linecap="round">
+                                        <line x1="34" y1="41" x2="34" y2="46"/><line x1="31" y1="43.5" x2="37" y2="43.5"/>
+                                        <line x1="32" y1="42" x2="30.5" y2="40.5"/>
+                                        <line x1="36" y1="42" x2="37.5" y2="40.5"/>
+                                    </g>
+                                    <circle cx="34" cy="43.5" r="1.5" fill="#5599cc"/>
+                                    <!-- 操作按键 -->
+                                    <circle cx="12" cy="35" r="1.5" stroke="#999" stroke-width="1" fill="none"/>
+                                    <circle cx="17" cy="35" r="1.5" stroke="#999" stroke-width="1" fill="none"/>
+                                    <circle cx="22" cy="35" r="1.5" stroke="#28a745" stroke-width="1" fill="rgba(40,167,69,0.2)"/>
+                                </svg>
+                            </div>
+                            <div class="dropdown-text">
+                                <h4>检验探测设备</h4>
+                                <p>激光测距/地质探测 — 耐低温，高原/极地可用</p>
+                            </div>
+                        </a>
+                        <a href="battery-apps/drone.html" class="dropdown-item">
+                            <div class="dropdown-image dd-icon-svg">
+                                <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <line x1="10" y1="24" x2="38" y2="24" stroke="#666" stroke-width="2" stroke-linecap="round"/>
+                                    <line x1="24" y1="10" x2="24" y2="38" stroke="#666" stroke-width="2" stroke-linecap="round"/>
+                                    <circle cx="24" cy="24" r="6" fill="#00aaff"/>
+                                    <circle cx="24" cy="24" r="3" fill="#fff"/>
+                                    <circle cx="24" cy="24" r="1.2" fill="#00aaff"/>
+                                    <g stroke="#555" stroke-width="1.5" fill="rgba(100,100,100,0.08)">
+                                        <circle cx="10" cy="24" r="6"/><circle cx="38" cy="24" r="6"/>
+                                        <circle cx="24" cy="10" r="6"/><circle cx="24" cy="38" r="6"/>
+                                    </g>
+                                    <circle cx="10" cy="24" r="2" fill="none" stroke="#999" stroke-width="1" stroke-dasharray="2,2"/>
+                                    <circle cx="38" cy="24" r="2" fill="none" stroke="#999" stroke-width="1" stroke-dasharray="2,2"/>
+                                    <circle cx="24" cy="10" r="2" fill="none" stroke="#999" stroke-width="1" stroke-dasharray="2,2"/>
+                                    <circle cx="24" cy="38" r="2" fill="none" stroke="#999" stroke-width="1" stroke-dasharray="2,2"/>
+                                    <rect x="29" y="20" width="6" height="3.5" rx="0.8" stroke="#28a745" stroke-width="1" fill="rgba(40,167,69,0.2)"/>
+                                    <rect x="34" y="21.5" width="0.8" height="1.5" rx="0.3" fill="#28a745"/>
+                                    <circle cx="24" cy="6" r="2.5" stroke="#5599cc" stroke-width="1.2" fill="rgba(85,153,204,0.15)"/>
+                                </svg>
+                            </div>
+                            <div class="dropdown-text">
+                                <h4>工业无人机</h4>
+                                <p>植保/巡检/航拍 — 高倍率放电，15分钟快充方案</p>
+                            </div>
+                        </a>
+                        <a href="battery-apps/robot.html" class="dropdown-item">
+                            <div class="dropdown-image dd-icon-svg">
+                                <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <ellipse cx="24" cy="42" rx="14" ry="3" stroke="#888" stroke-width="1.8" fill="rgba(136,136,136,0.08)"/>
+                                    <rect x="18" y="34" width="12" height="8" rx="2" stroke="#00aaff" stroke-width="2" fill="rgba(0,170,255,0.08)"/>
+                                    <circle cx="24" cy="38" r="2" stroke="#00aaff" stroke-width="1.2" fill="none"/>
+                                    <rect x="21" y="18" width="6" height="18" rx="3" stroke="#5599cc" stroke-width="2" fill="rgba(85,153,204,0.08)" transform="rotate(-10, 24, 24)"/>
+                                    <circle cx="24" cy="18" r="3.5" stroke="#00aaff" stroke-width="1.8" fill="#fff"/>
+                                    <circle cx="24" cy="18" r="1.5" fill="#00aaff"/>
+                                    <rect x="21" y="4" width="5" height="16" rx="2.5" stroke="#5599cc" stroke-width="1.8" fill="rgba(85,153,204,0.08)" transform="rotate(25, 23.5, 12)"/>
+                                    <path d="M30 6 L33 3 L34 5 L31 8 Z" stroke="#e63946" stroke-width="1.5" fill="rgba(230,57,70,0.12)" stroke-linejoin="round"/>
+                                    <path d="M32 9 L36 7 L36.5 9 L33 11 Z" stroke="#e63946" stroke-width="1.5" fill="rgba(230,57,70,0.12)" stroke-linejoin="round"/>
+                                    <circle cx="30" cy="7" r="1.8" fill="#00aaff"/>
+                                    <circle cx="30" cy="6.5" r="0.7" fill="#fff"/>
+                                    <circle cx="14" cy="43" r="2.5" stroke="#888" stroke-width="1.2" fill="none"/>
+                                    <circle cx="34" cy="43" r="2.5" stroke="#888" stroke-width="1.2" fill="none"/>
+                                </svg>
+                            </div>
+                            <div class="dropdown-text">
+                                <h4>服务与工业机器人</h4>
+                                <p>AGV/机械臂/配送机器人 — 高循环寿命，快充快放</p>
+                            </div>
+                        </a>
+                    </div>
+                </li>
+                <li><a href="#technology">技术工艺</a></li>
+                <li><a href="#faq">技术FAQ</a></li>
+                <li><a href="#news">电池资讯</a></li>
+                <li><a href="#about">关于我们</a></li>
+                <li><a href="#contact">联系我们</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="banner">
+        <div class="banner-video">
+            <!-- preload="auto" 提前加载视频；disablepictureinpicture 防止 PiP 悬浮遮挡 -->
+            <video autoplay muted loop playsinline
+                   preload="auto"
+                   disablepictureinpicture
+                   poster="img/CWNY.png">
+                <source src="img/hengfu_final_sr.mp4" type="video/mp4">
+            </video>
+        </div>
+        <div class="banner-scanline"></div>
+        <div class="banner-grid"></div>
+        <div class="container">
+            <h2>您的设备，该用什么样的电池？</h2>
+            <p>13年锂电池定制经验 · 500+企业客户验证 · 48小时出方案 · 7天打样</p>
+            <a href="#custom" class="btn">告诉我设备型号，免费出方案 →</a>
+        </div>
+    </section>
+
+    <section id="products" class="section bg-gray">
+        <div class="container">
+            <h2 class="section-title scroll-animate">电池产品中心</h2>
+            <p class="section-subtitle scroll-animate">不是所有锂电池都一样 — 选对类型，设备性能提升30%以上</p>
+
+            <div class="product-showcase">
+                <div class="showcase-left">
+                    <div class="left-hero-image">
+                        <img id="mainProductImage" src="products/ncm-medical-ultrasound.jpg" alt="三元锂电池">
+                    </div>
+                    <div class="left-info">
+                        <h3 id="productTitle">三元锂电池</h3>
+                        <p id="productDesc">高能量密度，优异循环性能，适合对重量和体积有严苛要求的设备</p>
+                        <div class="left-features" id="productFeatures">
+                            <span class="feature-tag">高能量密度</span>
+                            <span class="feature-tag">200-300Wh/kg</span>
+                            <span class="feature-tag">-20~60℃</span>
+                        </div>
+                    </div>
+                </div>
+
+                                <div class="showcase-center">
+                    <ul class="product-menu">
+                        <!-- 查看全系列锂电池 - 放在首位 -->
+                        <li class="menu-item more" data-product="more" data-href="battery-apps/products-all.html">
+                            <span class="menu-icon">
+                                <svg viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <!-- 浅蓝填充四格 -->
+                                    <rect x="1" y="1" width="5" height="5" rx="1.2" fill="#cce5ff" stroke="#007bff" stroke-width="0.8"/>
+                                    <rect x="7.5" y="1" width="5" height="5" rx="1.2" fill="#cce5ff" stroke="#007bff" stroke-width="0.8"/>
+                                    <rect x="1" y="7.5" width="5" height="5" rx="1.2" fill="#cce5ff" stroke="#007bff" stroke-width="0.8"/>
+                                    <rect x="7.5" y="7.5" width="5" height="5" rx="1.2" fill="#cce5ff" stroke="#007bff" stroke-width="0.8"/>
+                                    <!-- 加粗箭头 -->
+                                    <path d="M13.5 5.5 L18 10 L13.5 14.5" stroke="#007bff" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+                                    <line x1="16" y1="10" x2="19" y2="10" stroke="#007bff" stroke-width="2.2" stroke-linecap="round"/>
+                                </svg>
+                            </span>
+                            <span class="menu-text">查看全系列锂电池</span>
+                        </li>
+                        <li class="menu-item active" data-product="ternary" data-href="battery-apps/medical.html">
+                            <span class="menu-icon">
+                                <svg viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <!-- 蓝底填充电池 -->
+                                    <rect x="1.5" y="3" width="11" height="15" rx="2.5" fill="#e8f4fd" stroke="#007bff" stroke-width="1.3"/>
+                                    <rect x="4.5" y="1.2" width="5" height="3.3" rx="1" fill="#007bff"/>
+                                    <!-- NCM 红色徽标 -->
+                                    <circle cx="15.5" cy="6.5" r="4" fill="#e63946"/>
+                                    <text x="15.5" y="8" text-anchor="middle" fill="#fff" font-size="4.8" font-weight="800" font-family="Arial">NCM</text>
+                                    <!-- 能量箭头 -->
+                                    <path d="M13 13 L16.5 10 L13 7" stroke="#e63946" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" fill="none" marker-end="none"/>
+                                    <line x1="16.5" y1="10" x2="19" y2="10" stroke="#e63946" stroke-width="1.2" stroke-linecap="round"/>
+                                </svg>
+                            </span>
+                            <span class="menu-text">三元锂电池</span>
+                        </li>
+                        <li class="menu-item" data-product="polymer" data-href="battery-apps/digital.html">
+                            <span class="menu-icon">
+                                <svg viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <!-- 异形软包填充 -->
+                                    <path d="M2 6.5 C2 4.5,3.5 3,6 3 L12.5 3 C15 3,17 4.5,17 6.5 L13.5 16 C13.5 17.8,11.5 19,9 19 L4 19 C2.5 19,2 17.8,2 16 Z" fill="#e8f4fd" stroke="#007bff" stroke-width="1.3"/>
+                                    <!-- 铝塑膜角标 -->
+                                    <path d="M13 3 L17 7 L17 3 Z" fill="#007bff" opacity="0.25"/>
+                                    <line x1="13" y1="3" x2="17" y2="7" stroke="#007bff" stroke-width="0.8"/>
+                                    <!-- 三层内纹 -->
+                                    <line x1="4.5" y1="8" x2="12" y2="8" stroke="#007bff" stroke-width="0.9" stroke-linecap="round"/>
+                                    <line x1="4.5" y1="11" x2="11" y2="11" stroke="#5599cc" stroke-width="0.7" stroke-linecap="round"/>
+                                    <line x1="4.5" y1="14" x2="10" y2="14" stroke="#99ccee" stroke-width="0.6" stroke-linecap="round"/>
+                                </svg>
+                            </span>
+                            <span class="menu-text">聚合物锂电池</span>
+                        </li>
+                        <li class="menu-item" data-product="lifepo4" data-href="battery-apps/smartcity.html">
+                            <span class="menu-icon">
+                                <svg viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <!-- 绿底填充电池 -->
+                                    <rect x="2" y="3.5" width="11" height="15" rx="2.5" fill="#e6f9ee" stroke="#28a745" stroke-width="1.3"/>
+                                    <rect x="4.5" y="1.5" width="5" height="3" rx="1" fill="#28a745"/>
+                                    <!-- 大号安全盾牌对勾 -->
+                                    <g transform="translate(14.5,10)">
+                                        <path d="M0 -5 L5 0 Q6 2 4 3.5 L0 6.5 L-4 3.5 Q-6 2 -5 0 Z" fill="#28a745"/>
+                                        <path d="M-2.5 3 L-0.5 5 L3.5 1" stroke="#fff" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+                                    </g>
+                                </svg>
+                            </span>
+                            <span class="menu-text">磷酸铁锂电池</span>
+                        </li>
+                        <li class="menu-item" data-product="lowtemp" data-href="battery-apps/instrument.html">
+                            <span class="menu-icon">
+                                <svg viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <!-- 电池主体 -->
+                                    <rect x="2" y="5" width="9.5" height="13" rx="1.8" fill="#e8f4fd" stroke="#007bff" stroke-width="1.2"/>
+                                    <rect x="4.5" y="3" width="4.5" height="3.5" rx="0.9" fill="#007bff"/>
+                                    <!-- 六角精致雪花 -->
+                                    <g transform="translate(14.5,10)" stroke="#74b9ff" stroke-width="1" stroke-linecap="round" fill="none">
+                                        <line x1="0" y1="-4" x2="0" y2="4"/>
+                                        <line x1="-3.5" y1="-2" x2="3.5" y2="2"/>
+                                        <line x1="-3.5" y1="2" x2="3.5" y2="-2"/>
+                                        <!-- 六角分枝 -->
+                                        <line x1="0" y1="-4" x2="-1.5" y2="-5.2"/>
+                                        <line x1="0" y1="-4" x2="1.5" y2="-5.2"/>
+                                        <line x1="0" y1="4" x2="-1.5" y2="5.2"/>
+                                        <line x1="0" y1="4" x2="1.5" y2="5.2"/>
+                                    </g>
+                                    <text x="14.5" y="18" text-anchor="middle" fill="#007bff" font-size="4.2" font-weight="700" font-family="Arial">-40°</text>
+                                </svg>
+                            </span>
+                            <span class="menu-text">低温锂电池</span>
+                        </li>
+                                                <li class="menu-item" data-product="hightemp" data-href="battery-apps/detection.html">
+                            <span class="menu-icon">
+                                <svg viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <rect x="2" y="5" width="9.5" height="13" rx="1.8" fill="#fff8f0" stroke="#ff6b35" stroke-width="1.2"/>
+                                    <rect x="4.5" y="3" width="4.5" height="3.5" rx="0.9" fill="#ff6b35"/>
+                                    <!-- 三层渐变烈焰（黄→橙→红）-->
+                                    <g transform="translate(14.5,10)">
+                                        <path d="M0 6 C-3 3,-1.5 -1,0 -3 C1.5 -1,3 3,0 6Z" fill="#ffc107" stroke="#ff9100" stroke-width="0.5"/>
+                                        <path d="M0 4.5 C-2 2,-1 -0.5,0 -2 C1 -0.5,2 2,0 4.5Z" fill="#ff6b35" stroke="#ff4444" stroke-width="0.4"/>
+                                        <path d="M0 2.5 C-1 1,-0.5 -0.2,0 -1 C0.5 -0.2,1 1,0 2.5Z" fill="#ff4444" stroke="#cc0000" stroke-width="0.3"/>
+                                    </g>
+                                    <text x="14.5" y="18.5" text-anchor="middle" fill="#ff6b35" font-size="4" font-weight="700" font-family="Arial">+85°</text>
+                                </svg>
+                            </span>
+                            <span class="menu-text">高温锂电池</span>
+                        </li>
+                        <li class="menu-item" data-product="power" data-href="battery-apps/robot.html">
+                            <span class="menu-icon">
+                                <svg viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <rect x="2" y="4.5" width="9.5" height="13" rx="1.8" fill="#fffbe6" stroke="#ffc107" stroke-width="1.2"/>
+                                    <rect x="4.5" y="2.5" width="4.5" height="3.5" rx="0.9" fill="#ffc107"/>
+                                    <!-- 锯齿闪电 -->
+                                    <path d="M14 2 L11 8.5 L14.5 8.5 L12 15 L17 8 L14 8Z" fill="#ffc107" stroke="#e67010" stroke-width="0.7" stroke-linejoin="round"/>
+                                </svg>
+                            </span>
+                            <span class="menu-text">动力锂电池</span>
+                        </li>
+                        <li class="menu-item" data-product="storage" data-href="battery-apps/energy.html">
+                            <span class="menu-icon">
+                                <svg viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <!-- 双层电池堆叠 -->
+                                    <rect x="1.5" y="7" width="8" height="11.5" rx="1.5" fill="#e8f4fd" stroke="#00aaff" stroke-width="1.1"/>
+                                    <rect x="3.5" y="5.5" width="5" height="2.5" rx="0.8" fill="#00aaff"/>
+                                    <rect x="8.5" y="3.5" width="8" height="11.5" rx="1.5" fill="#d0ebff" stroke="#007bff" stroke-width="1.1"/>
+                                    <rect x="10.5" y="2" width="5" height="2.5" rx="0.8" fill="#007bff"/>
+                                    <!-- 绿色循环箭头 -->
+                                    <path d="M4 3.5 A5 4.5 0 1 1 16 3.5" stroke="#28a745" stroke-width="1" fill="none" stroke-linecap="round"/>
+                                    <polygon points="15.2,1.8 17,3.5 15,3.5" fill="#28a745"/>
+                                    <path d="M16 18.5 A5 4.5 0 1 1 4 18.5" stroke="#28a745" stroke-width="1" fill="none" stroke-linecap="round"/>
+                                    <polygon points="4.8,20.2 3,18.5 5,18.5" fill="#28a745"/>
+                                </svg>
+                            </span>
+                            <span class="menu-text">储能锂电池</span>
+                        </li>
+                        <li class="menu-item" data-product="smart" data-href="battery-apps/iot.html">
+                            <span class="menu-icon">
+                                <svg viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <!-- IC芯片(6引脚) -->
+                                    <rect x="1.5" y="5" width="9" height="11" rx="1.5" fill="#f5f0ff" stroke="#6c5ce7" stroke-width="1.1"/>
+                                    <rect x="4" y="3.5" width="4" height="2.5" rx="0.7" fill="#6c5ce7"/>
+                                    <!-- 6引脚 -->
+                                    <g stroke="#6c5ce7" stroke-width="0.8" stroke-linecap="round">
+                                        <line x1="3" y1="16" x2="3" y2="17"/>
+                                        <line x1="5" y1="16" x2="5" y2="17"/>
+                                        <line x1="7" y1="16" x2="7" y2="17"/>
+                                        <line x1="3" y1="4" x2="3" y2="3"/>
+                                        <line x1="5" y1="4" x2="5" y2="3"/>
+                                        <line x1="7" y1="4" x2="7" y2="3"/>
+                                    </g>
+                                    <!-- WiFi信号 -->
+                                    <g transform="translate(14,9)" stroke="#6c5ce7" stroke-width="1" stroke-linecap="round" fill="none">
+                                        <circle cx="0" cy="0" r="1.2" fill="#6c5ce7"/>
+                                        <circle cx="0" cy="0" r="3" stroke-dasharray="0 0 4 20"/>
+                                        <circle cx="0" cy="0" r="5" stroke-dasharray="0 0 4 20"/>
+                                    </g>
+                                    <!-- 虚线连接 -->
+                                    <path d="M10.5 10.5 Q11 9.5 11.5 10.5" stroke="#a29bfe" stroke-width="0.7" fill="none" stroke-dasharray="1.2 1"/>
+                                </svg>
+                            </span>
+                            <span class="menu-text">智能锂电池</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="showcase-right">
+                    <h4 class="showcase-right-title">▎ 代 表 产 品</h4>
+                    <div class="product-cards">
+                        <div class="product-card">
+                            <div class="product-card-image">
+                                <img src="products/ncm-medical-ultrasound.jpg" alt="医疗B超电池" loading="lazy">
+                            </div>
+                            <div class="product-card-info">
+                                <span class="product-card-model">CW-NMC-3S-11.1V-2.6Ah</span>
+                                <h4>三元锂电池</h4>
+                                <p class="product-card-app">医疗护理设备</p>
+                                <div class="product-specs">
+                                    <div class="spec-item"><span>电压</span><span>11.1V</span></div>
+                                    <div class="spec-item"><span>容量</span><span>2.6Ah</span></div>
+                                    <div class="spec-item"><span>类别</span><span>三元锂</span></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product-card">
+                            <div class="product-card-image">
+                                <img src="products/ncm-laser-range.jpg" alt="激光测距仪电池" loading="lazy">
+                            </div>
+                            <div class="product-card-info">
+                                <span class="product-card-model">CW-NMC-1S-3.7V-7Ah</span>
+                                <h4>三元锂电池</h4>
+                                <p class="product-card-app">工业检测仪器</p>
+                                <div class="product-specs">
+                                    <div class="spec-item"><span>电压</span><span>3.7V</span></div>
+                                    <div class="spec-item"><span>容量</span><span>7Ah</span></div>
+                                    <div class="spec-item"><span>类别</span><span>三元锂</span></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product-card">
+                            <div class="product-card-image">
+                                <img src="products/ncm-drone-48V-20Ah.jpg" alt="无人机电池" loading="lazy">
+                            </div>
+                            <div class="product-card-info">
+                                <span class="product-card-model">CW-NMC-14S-53.2V-20Ah</span>
+                                <h4>三元锂电池</h4>
+                                <p class="product-card-app">工业无人机</p>
+                                <div class="product-specs">
+                                    <div class="spec-item"><span>电压</span><span>53.2V</span></div>
+                                    <div class="spec-item"><span>容量</span><span>20Ah</span></div>
+                                    <div class="spec-item"><span>类别</span><span>三元锂</span></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="custom" class="section">
+        <div class="container">
+            <h2 class="section-title scroll-animate">电池定制服务</h2>
+            <p class="section-subtitle scroll-animate">电芯外购 · BMS自主研发 · PACK专业封装 — 您只需告诉我应用场景</p>
+            <div class="custom-services scroll-animate">
+                <div class="service">
+                    <div class="service-icon">&#9881;</div>
+                    <h3>一体化电池PACK定制</h3>
+                    <p>不是单纯卖电芯，而是交付一套完整的电源解决方案。我们根据您的设备空间、功耗曲线、工作环境，精选电芯型号，匹配最优BMS方案，设计结构封装，最终交付即插即用的电池模组。</p>
+                    <p class="service-detail">✅ 支持异形/超薄/防水/防爆等特殊结构<br>✅ 7-15天交付，支持小批量试产<br>✅ 提供全套认证文件（UN38.3/CE/RoHS）</p>
+                    <a href="#contact" class="btn">获取定制方案</a>
+                </div>
+                <div class="service">
+                    <div class="service-icon">&#9889;</div>
+                    <h3>BMS电池管理系统定制</h3>
+                    <p>BMS是电池的"大脑"——它决定电池安全、寿命和性能。我们自主开发BMS方案，升压容量损耗控制在15%以下，降压有效容量保持96%以上。支持被动/主动均衡、加热管理、通信协议（RS485/CAN/蓝牙）定制。</p>
+                    <p class="service-detail">✅ 支持2-32串任意配置<br>✅ 过充/过放/过流/短路/温控五重保护<br>✅ 可根据实际应用定制电压和电流参数</p>
+                    <a href="#contact" class="btn">了解BMS方案</a>
+                </div>
+                <div class="service">
+                    <div class="service-icon">&#128270;</div>
+                    <h3>电池升级与替换</h3>
+                    <p>老设备电池老化、进口设备国产替代、铅酸改锂电——我们都能帮您找到最优解。提供旧电池分析、新方案选型、接口匹配的全流程服务，无需改动设备硬件即可完成升级。</p>
+                    <p class="service-detail">✅ 铅酸改锂电可行性评估<br>✅ 进口品牌电池1:1替换方案<br>✅ 兼容原设备所有接口和通信协议</p>
+                    <a href="#contact" class="btn">咨询升级方案</a>
+                </div>
+            </div>
+
+            <!-- 定制流程透明化 -->
+            <div class="custom-process scroll-animate">
+                <h3 class="custom-process-title">定制流程透明化 — 每一步您都心中有数</h3>
+                <p class="custom-process-intro">从首次沟通到成品交付，六个标准节点，每个节点您都会收到明确反馈。</p>
+                <div class="process-timeline">
+                    <div class="timeline-step">
+                        <div class="timeline-num">1</div>
+                        <div class="timeline-content">
+                            <h4>需求沟通 <span class="timeline-time">您提供：设备型号 / 电压 / 容量 / 使用环境</span></h4>
+                            <p>我们了解：设备功耗曲线、工作温度范围、认证需求、目标价格。我们会在<strong>48小时内</strong>给出初步选型建议和报价意向。</p>
+                        </div>
+                    </div>
+                    <div class="timeline-step">
+                        <div class="timeline-num">2</div>
+                        <div class="timeline-content">
+                            <h4>方案确认 <span class="timeline-time">周期：1-3个工作日</span></h4>
+                            <p>提供2-3个选型方案对比（含电芯型号、BMS参数、结构尺寸、预计成本），您选型或提出调整意见，我们优化到满意为止。</p>
+                        </div>
+                    </div>
+                    <div class="timeline-step">
+                        <div class="timeline-num">3</div>
+                        <div class="timeline-content">
+                            <h4>样品制作 <span class="timeline-time">周期：7-10个工作日</span></h4>
+                            <p>打样阶段全程透明：来料检验数据→电芯配对参数→PACK焊接照片→BMS烧录报告，完成后提供完整样品测试报告。</p>
+                        </div>
+                    </div>
+                    <div class="timeline-step">
+                        <div class="timeline-num">4</div>
+                        <div class="timeline-content">
+                            <h4>样品测试与确认 <span class="timeline-time">周期：1-3个工作日</span></h4>
+                            <p>按您提供的测试大纲进行电气性能、安全、环境测试。您可派人现场验收，也可远程查看测试数据和视频记录。</p>
+                        </div>
+                    </div>
+                    <div class="timeline-step">
+                        <div class="timeline-num">5</div>
+                        <div class="timeline-content">
+                            <h4>量产交付 <span class="timeline-time">周期：按订单量协商，通常15-25个工作日</span></h4>
+                            <p>量产阶段同样透明：来料检验报告 → 过程巡检记录 → 成品测试报告 → 出货检验清单，全程可追溯，批次留样备查。</p>
+                        </div>
+                    </div>
+                    <div class="timeline-step">
+                        <div class="timeline-num">6</div>
+                        <div class="timeline-content">
+                            <h4>售后跟踪 <span class="timeline-time">质保期内48小时内响应</span></h4>
+                            <p>非人为损坏的品质问题，免费换货。每批次留样存档，支持质量追溯。长期合作客户建立专属技术对接通道。</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="process-cta">
+                    <a href="#contact" class="btn btn-primary">开始第一步 — 告诉我您的需求</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="applications" class="section bg-gray">
+        <div class="container">
+            <h2 class="section-title scroll-animate">电池应用解决方案</h2>
+            <p class="section-subtitle scroll-animate">12大应用场景 · 138款现成产品 · 点击查看实物图片与技术参数</p>
+            <div class="app-grid scroll-animate">
+                <a href="battery-apps/robot.html" class="app-card">
+                    <div class="app-icon">🤖</div>
+                    <div class="app-info">
+                        <h3>服务与工业机器人</h3>
+                        <p>高循环寿命·快充·BMS通讯</p>
+                        <span class="app-count">43款产品</span>
+                    </div>
+                    <span class="app-arrow">→</span>
+                </a>
+                <a href="battery-apps/digital.html" class="app-card">
+                    <div class="app-icon">📱</div>
+                    <div class="app-info">
+                        <h3>智能数码产品</h3>
+                        <p>小体积·高能量密度·定制外形</p>
+                        <span class="app-count">25款产品</span>
+                    </div>
+                    <span class="app-arrow">→</span>
+                </a>
+                <a href="battery-apps/instrument.html" class="app-card">
+                    <div class="app-icon">🔬</div>
+                    <div class="app-info">
+                        <h3>工业检测仪器</h3>
+                        <p>耐低温·抗振动·IP67可选</p>
+                        <span class="app-count">13款产品</span>
+                    </div>
+                    <span class="app-arrow">→</span>
+                </a>
+                <a href="battery-apps/medical.html" class="app-card">
+                    <div class="app-icon">🏥</div>
+                    <div class="app-info">
+                        <h3>医疗护理设备</h3>
+                        <p>医疗认证·安全可靠·稳定放电</p>
+                        <span class="app-count">12款产品</span>
+                    </div>
+                    <span class="app-arrow">→</span>
+                </a>
+                <a href="battery-apps/energy.html" class="app-card">
+                    <div class="app-icon">⚡</div>
+                    <div class="app-info">
+                        <h3>应急备电与储能</h3>
+                        <p>磷酸铁锂·4000次循环·并联扩容</p>
+                        <span class="app-count">10款产品</span>
+                    </div>
+                    <span class="app-arrow">→</span>
+                </a>
+                <a href="battery-apps/detection.html" class="app-card">
+                    <div class="app-icon">🔍</div>
+                    <div class="app-info">
+                        <h3>检验探测设备</h3>
+                        <p>大容量·长续航·特种场合专用</p>
+                        <span class="app-count">9款产品</span>
+                    </div>
+                    <span class="app-arrow">→</span>
+                </a>
+                <a href="battery-apps/drone.html" class="app-card">
+                    <div class="app-icon">🚁</div>
+                    <div class="app-info">
+                        <h3>工业无人机</h3>
+                        <p>高倍率·快充·轻量化设计</p>
+                        <span class="app-count">7款产品</span>
+                    </div>
+                    <span class="app-arrow">→</span>
+                </a>
+                <a href="battery-apps/iot.html" class="app-card">
+                    <div class="app-icon">📡</div>
+                    <div class="app-info">
+                        <h3>物联网设备</h3>
+                        <p>锂氩电池·10年免维护·极低自放</p>
+                        <span class="app-count">7款产品</span>
+                    </div>
+                    <span class="app-arrow">→</span>
+                </a>
+                <a href="battery-apps/smartcity.html" class="app-card">
+                    <div class="app-icon">🏙️</div>
+                    <div class="app-info">
+                        <h3>智慧城市基础设施</h3>
+                        <p>储能/铅转锂·长寿命·免维护</p>
+                        <span class="app-count">4款产品</span>
+                    </div>
+                    <span class="app-arrow">→</span>
+                </a>
+                <a href="battery-apps/agv.html" class="app-card">
+                    <div class="app-icon">🚚</div>
+                    <div class="app-info">
+                        <h3>交通与AGV设备</h3>
+                        <p>磷酸铁锂·485通讯·自动换电</p>
+                        <span class="app-count">2款产品</span>
+                    </div>
+                    <span class="app-arrow">→</span>
+                </a>
+                <a href="battery-apps/agriculture.html" class="app-card">
+                    <div class="app-icon">🌾</div>
+                    <div class="app-info">
+                        <h3>智慧农业设备</h3>
+                        <p>大容量·防水·耐高温户外</p>
+                        <span class="app-count">1款产品</span>
+                    </div>
+                    <span class="app-arrow">→</span>
+                </a>
+                <a href="battery-apps/consumer.html" class="app-card">
+                    <div class="app-icon">🏠</div>
+                    <div class="app-info">
+                        <h3>智能家居与消费电子</h3>
+                        <p>聚合物·超薄·可定制外形</p>
+                        <span class="app-count">1款产品</span>
+                    </div>
+                    <span class="app-arrow">→</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section id="technology" class="section tech-section">
+        <div class="container">
+            <h2 class="section-title scroll-animate">技术工艺与品质保障</h2>
+            <p class="section-subtitle scroll-animate">13年只做一件事：精选电芯、自研BMS、专业PACK，让每一块电池都安全可靠</p>
+
+            <!-- 核心数据条 -->
+            <div class="tech-stats scroll-animate">
+                <div class="tech-stat-item">
+                    <span class="tech-stat-num">±2%</span>
+                    <span class="tech-stat-label">电芯内阻一致性偏差</span>
+                </div>
+                <div class="tech-stat-item">
+                    <span class="tech-stat-num">6道</span>
+                    <span class="tech-stat-label">全流程质检关卡</span>
+                </div>
+                <div class="tech-stat-item">
+                    <span class="tech-stat-num">10000㎡</span>
+                    <span class="tech-stat-label">现代化生产基地</span>
+                </div>
+                <div class="tech-stat-item">
+                    <span class="tech-stat-num">100%</span>
+                    <span class="tech-stat-label">关键工序在线检测</span>
+                </div>
+            </div>
+
+            <!-- 生产质检流程 -->
+            <div class="tech-process scroll-animate">
+                <h3 class="tech-process-title">六道质检关卡 · 从电芯入库到成品出货全程管控</h3>
+                <div class="process-flow">
+                    <div class="process-step">
+                        <div class="process-icon">
+                            <svg viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="4" y="8" width="32" height="24" rx="3" stroke="#007bff" stroke-width="2"/><path d="M4 14h32" stroke="#007bff" stroke-width="2"/><circle cx="12" cy="10" r="1.5" fill="#00aaff"/><circle cx="18" cy="10" r="1.5" fill="#00aaff"/><circle cx="24" cy="10" r="1.5" fill="#00aaff"/></svg>
+                        </div>
+                        <div class="process-content">
+                            <h4>来料检验</h4>
+                            <p>电芯、BMS芯片、保护板原材料逐一检测，源头拦截不合格品</p>
+                        </div>
+                    </div>
+                    <div class="process-arrow">→</div>
+                    <div class="process-step">
+                        <div class="process-icon">
+                            <svg viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="8" y="4" width="24" height="32" rx="3" stroke="#007bff" stroke-width="2"/><line x1="14" y1="12" x2="26" y2="12" stroke="#00aaff" stroke-width="2"/><line x1="14" y1="18" x2="26" y2="18" stroke="#00aaff" stroke-width="2"/><line x1="14" y1="24" x2="22" y2="24" stroke="#00aaff" stroke-width="2"/></svg>
+                        </div>
+                        <div class="process-content">
+                            <h4>分选配对</h4>
+                            <p>电压、内阻、容量三维度精密筛选配对，同组电芯一致性控制在±2%以内</p>
+                        </div>
+                    </div>
+                    <div class="process-arrow">→</div>
+                    <div class="process-step">
+                        <div class="process-icon">
+                            <svg viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="5" y="10" width="30" height="20" rx="3" stroke="#007bff" stroke-width="2"/><rect x="9" y="14" width="8" height="12" rx="1.5" fill="#e8f4ff" stroke="#00aaff" stroke-width="1.5"/><rect x="20" y="14" width="8" height="12" rx="1.5" fill="#e8f4ff" stroke="#00aaff" stroke-width="1.5"/><path d="M35 17v6" stroke="#007bff" stroke-width="2.5" stroke-linecap="round"/></svg>
+                        </div>
+                        <div class="process-content">
+                            <h4>PACK组装</h4>
+                            <p>自动化点焊 + 人工精检，镍片焊接牢固度100%抽检，结构尺寸严格管控</p>
+                        </div>
+                    </div>
+                    <div class="process-arrow">→</div>
+                    <div class="process-step">
+                        <div class="process-icon">
+                            <svg viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="6" y="6" width="28" height="28" rx="4" stroke="#007bff" stroke-width="2"/><path d="M14 20l4 4 8-8" stroke="#00aaff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                        </div>
+                        <div class="process-content">
+                            <h4>BMS集成</h4>
+                            <p>自研保护板烧录固件、调试参数，过充/过放/短路/温度四重保护逐一验证</p>
+                        </div>
+                    </div>
+                    <div class="process-arrow">→</div>
+                    <div class="process-step">
+                        <div class="process-icon">
+                            <svg viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M20 6l12 8v12l-12 8-12-8V14l12-8z" stroke="#007bff" stroke-width="2"/><circle cx="20" cy="20" r="5" stroke="#00aaff" stroke-width="2"/></svg>
+                        </div>
+                        <div class="process-content">
+                            <h4>老化测试</h4>
+                            <p>高温/低温/振动多环境72小时老化，提前暴露潜在隐患</p>
+                        </div>
+                    </div>
+                    <div class="process-arrow">→</div>
+                    <div class="process-step">
+                        <div class="process-icon">
+                            <svg viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M8 20l6 6 18-18" stroke="#007bff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/><circle cx="20" cy="20" r="14" stroke="#007bff" stroke-width="2"/></svg>
+                        </div>
+                        <div class="process-content">
+                            <h4>成品检验</h4>
+                            <p>电气性能、外观、包装全项终检，每批次留样存档可追溯</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 认证体系 + 自主研发 -->
+            <div class="tech-bottom scroll-animate">
+                <div class="tech-cert">
+                    <h3 class="tech-cert-title">7大国际认证 · 出口全球无忧</h3>
+                    <div class="cert-cards">
+                        <div class="cert-card">
+                            <div class="cert-badge">ISO9001</div>
+                            <span>质量管理体系</span>
+                        </div>
+                        <div class="cert-card">
+                            <div class="cert-badge">CE</div>
+                            <span>欧盟产品认证</span>
+                        </div>
+                        <div class="cert-card">
+                            <div class="cert-badge">RoHS</div>
+                            <span>环保合规认证</span>
+                        </div>
+                        <div class="cert-card">
+                            <div class="cert-badge">UN38.3</div>
+                            <span>运输安全认证</span>
+                        </div>
+                        <div class="cert-card">
+                            <div class="cert-badge">FCC</div>
+                            <span>美国联邦通信</span>
+                        </div>
+                        <div class="cert-card">
+                            <div class="cert-badge">IEC</div>
+                            <span>国际电工标准</span>
+                        </div>
+                        <div class="cert-card cert-card-highlight">
+                            <div class="cert-badge">高新</div>
+                            <span>高新技术企业</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="tech-rd">
+                    <h3 class="tech-cert-title">核心能力 · 选型 · 研发 · 集成</h3>
+                    <div class="rd-features">
+                        <div class="rd-item">
+                            <div class="rd-icon">
+                                <svg viewBox="0 0 32 32" fill="none"><circle cx="16" cy="16" r="12" stroke="#007bff" stroke-width="2"/><path d="M10 16l4 4 8-8" stroke="#00aaff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                            </div>
+                            <div class="rd-text">
+                                <h4>专业电芯选型</h4>
+                                <p>与宁德时代、比亚迪、国轩、亿纬长期合作，针对不同工况推荐最优电芯方案，来料100%批次检验</p>
+                            </div>
+                        </div>
+                        <div class="rd-item">
+                            <div class="rd-icon">
+                                <svg viewBox="0 0 32 32" fill="none"><rect x="6" y="6" width="20" height="20" rx="3" stroke="#007bff" stroke-width="2"/><path d="M12 16h8M16 12v8" stroke="#00aaff" stroke-width="2" stroke-linecap="round"/></svg>
+                            </div>
+                            <div class="rd-text">
+                                <h4>BMS自主开发</h4>
+                                <p>升压损耗≤15%，降压容量保持≥96%，支持RS485/CAN/蓝牙通信，可按需定制保护参数</p>
+                            </div>
+                        </div>
+                        <div class="rd-item">
+                            <div class="rd-icon">
+                                <svg viewBox="0 0 32 32" fill="none"><path d="M16 4l10 6v12l-10 6-10-6V10l10-6z" stroke="#007bff" stroke-width="2"/><circle cx="16" cy="16" r="4" stroke="#00aaff" stroke-width="2"/></svg>
+                            </div>
+                            <div class="rd-text">
+                                <h4>精密PACK工艺</h4>
+                                <p>自动化点焊 + 激光焊接双模式，结构设计支持方形/圆柱/软包多形态，满足异形定制需求</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="quality" class="section">
+        <div class="container">
+            <h2 class="section-title scroll-animate">来料检验 · 每颗电芯入库前都要过这几关</h2>
+            <p class="section-subtitle scroll-animate">不是所有 PACK 集成商都会全检每一颗电芯 — 我们会。</p>
+            <div class="inspection-grid scroll-animate">
+                <div class="inspection-item">
+                    <div class="inspection-icon">&#128270;</div>
+                    <h4>外观全检</h4>
+                    <p>外壳无划伤、无变形、无漏液、无胀气，喷码与订单一致，包装完好</p>
+                </div>
+                <div class="inspection-item">
+                    <div class="inspection-icon">&#128267;</div>
+                    <h4>电压·内阻检测</h4>
+                    <p>逐颗测量开路电压和交流内阻，偏差超出±5%直接退货，绝不允许混入</p>
+                </div>
+                <div class="inspection-item">
+                    <div class="inspection-icon">&#9889;</div>
+                    <h4>容量初测</h4>
+                    <p>标准放电曲线全容量测试，额定容量低于95%的批次整批退回</p>
+                </div>
+                <div class="inspection-item">
+                    <div class="inspection-icon">&#128195;</div>
+                    <h4>数据存档</h4>
+                    <p>每批次检验数据存档可追溯，支持客户按需调取原始批次报告</p>
+                </div>
+            </div>
+            <p class="inspection-note">💡 来料检验原始数据可作为出货依据免费提供，让您的采购和质量部门都放心。</p>
+        </div>
+    </section>
+
+    <section id="faq" class="section bg-gray">
+        <div class="container">
+            <h2 class="section-title scroll-animate">技术 FAQ — 选型之前先搞懂这些</h2>
+            <p class="section-subtitle scroll-animate">客户问得最多的10个问题，我们给您一个认真而不是敷衍的答案</p>
+            <div class="faq-list scroll-animate">
+
+                <div class="faq-item">
+                    <button class="faq-question" onclick="toggleFaq(this)">
+                        <span>Q1：三元锂电池和磷酸铁锂电池，到底怎么选？</span>
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>没有绝对的好坏，只有更适合的场景。</p>
+                        <table class="faq-table">
+                            <tr><th>对比项</th><th>三元锂</th><th>磷酸铁锂</th></tr>
+                            <tr><td>能量密度</td><td>高（同样体积电量多30%+）</td><td>较低</td></tr>
+                            <tr><td>循环寿命</td><td>约1000-1500次</td><td>约2000-4000次</td></tr>
+                            <tr><td>低温性能</td><td>-20°C可用，-10°C以下衰减明显</td><td>-20°C以下仍可工作</td></tr>
+                            <tr><td>安全性</td><td>需较好的热管理</td><td>热稳定性好，不易起火</td></tr>
+                            <tr><td>成本</td><td>较高（含钴镍）</td><td>较低</td></tr>
+                        </table>
+                        <p><strong>推荐逻辑：</strong>设备空间紧凑、重量敏感、需要快充 → 三元锂；设备要跑5年以上、户外寒冷环境、安全要求高 → 磷酸铁锂。</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question" onclick="toggleFaq(this)">
+                        <span>Q2：BMS到底在保护什么？</span>
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>BMS（电池管理系统）是电池组的"大脑"，每时每刻在监控以下关键指标：</p>
+                        <ul>
+                            <li><strong>过充保护：</strong>电压超过上限时切断充电，防止电芯胀气/起火</li>
+                            <li><strong>过放保护：</strong>电压低于下限时切断负载，防止电芯永久损伤</li>
+                            <li><strong>过流保护：</strong>充放电电流超过设定值时保护，支持短路保护</li>
+                            <li><strong>温度保护：</strong>电芯温度超出范围（通常0-45°C）时限制充放</li>
+                            <li><strong>均衡功能：</strong>定期对电芯进行充放电均衡，保持组内电芯一致性</li>
+                        </ul>
+                        <p>我们出厂的每套BMS都会经过固件烧录→参数调试→四重保护逐一验证，不做抽检，做全检。</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question" onclick="toggleFaq(this)">
+                        <span>Q3：出口锂电池需要哪些认证？</span>
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>锂电池出口主要涉及以下认证，按您的目标市场对号入座：</p>
+                        <ul>
+                            <li><strong>UN38.3（必做）：</strong>锂电池运输安全检测，空运/海运/陆运均需要，测试含高度模拟、热测试、过充短路等8项</li>
+                            <li><strong>CE（欧盟）：</strong>进入欧盟市场的强制认证，含RoHS环保要求</li>
+                            <li><strong>FCC（美国）：</strong>含有无线通信功能（如蓝牙BMS）才需要</li>
+                            <li><strong>IEC 62133（国际）：</strong>便携式二次锂电池安全标准，很多客户会要求</li>
+                            <li><strong>UL（北美）：</strong>美国市场认可度高，医疗/工业客户常要求</li>
+                        </ul>
+                        <p>💡 <strong>注意：</strong>认证费用由客户指定检测机构收取，我们只提供认证所需的技术文件和样品。</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question" onclick="toggleFaq(this)">
+                        <span>Q4：你们支持小批量定制吗？</span>
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>支持，5块起做，不设MOQ门槛。</p>
+                        <p>但坦白说，小批量的单位成本会比大批量高出不少——模具分摊、开机成本、检测费用都是固定的。所以我们会提前告知您小批量与大批量的单价差异，由您决定量级。</p>
+                        <p>如果您不确定需求量，建议先打样（7-10个工作日，费用另计），确认品质后再下批量订单，两步走更稳妥。</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question" onclick="toggleFaq(this)">
+                        <span>Q5：铅酸改锂电池，可行吗？需要注意什么？</span>
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>完全可行，但有前提条件，需要我们先评估以下几点：</p>
+                        <ul>
+                            <li><strong>设备充电电路：</strong>铅酸充电器输出电压和锂电池充电曲线不同，通常需要更换或改装充电器</li>
+                            <li><strong>接口兼容性：</strong>物理尺寸和接口定义是否一致，锂电池需要专用接口</li>
+                            <li><strong>通信协议：</strong>设备原BMS通信协议是否需要适配</li>
+                            <li><strong>安全评估：</strong>设备使用环境是否有防爆要求</li>
+                        </ul>
+                        <p>我们提供<strong>铅酸改锂电可行性评估</strong>，免费，先评估后报价。</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question" onclick="toggleFaq(this)">
+                        <span>Q6：电池的循环寿命是怎么算的？</span>
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>行业内通常以<strong>80%额定容量</strong>作为寿命终点，即：电池充满后能放出额定容量的80%，算作一次完整循环。</p>
+                        <p>注意："充一次电就算一次循环"是误解。浅充浅放同样消耗寿命，只是消耗得更慢。</p>
+                        <p>实际使用中，影响循环寿命的主要因素：放电深度（每次用到没电比用到50%寿命短得多）、温度（高温会加速老化）、充放电电流（超大电流会损伤电芯）。</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question" onclick="toggleFaq(this)">
+                        <span>Q7：电池使用过程中发热正常吗？</span>
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>轻微发热是正常的——充放电过程中电能转化为化学能，必然有少量热量产生。</p>
+                        <p><strong>需要警惕的发热：</strong></p>
+                        <ul>
+                            <li>充电时外壳烫手（>45°C体感）→ 充电电流过大或电芯老化</li>
+                            <li>放电时明显发热 → 放电电流超出电芯承受范围</li>
+                            <li>静置时发热 → 电芯内部短路，立即停用</li>
+                        </ul>
+                        <p>我们出厂的每套电池都经过高温老化测试，正常使用不会发生危险。但如果您的设备出现以上情况，请立即停用并联系我们。</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question" onclick="toggleFaq(this)">
+                        <span>Q8：如何计算我的设备需要多大的电池容量？</span>
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>有一个简单的计算公式：</p>
+                        <p class="formula">电池容量(Ah) = 设备功率(W) × 续航时间(h) ÷ 电池电压(V) × 安全系数(1.2)</p>
+                        <p><strong>举例：</strong>设备功率60W，需要续航4小时，电压24V，则：<br>
+                        容量 = 60 × 4 ÷ 24 × 1.2 = 12Ah → 推荐选12Ah或14Ah</p>
+                        <p>但实际选型更复杂，还需要考虑：设备启动电流（通常是额定功率的2-3倍）、温度对容量的影响、电池放电曲线是否匹配设备最低工作电压。我们帮您算，您只需要告诉我们设备功率和续航需求。</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question" onclick="toggleFaq(this)">
+                        <span>Q9：交期一般多久？能不能加急？</span>
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>正常交期（从方案确认到样品交付）：<strong>7-10个工作日</strong><br>
+                        正常交期（从方案确认到量产交付）：<strong>15-25个工作日</strong>（视订单量）</p>
+                        <p>可以加急，但加急费视情况收取。加急相当于插队生产，可能影响其他订单排期。</p>
+                        <p>我们不对客户隐瞒交期风险——如果原材料供应紧张或旺季排产满，我们会提前告知，不做虚假承诺。</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question" onclick="toggleFaq(this)">
+                        <span>Q10：质保期多久？超出质保期出问题怎么办？</span>
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>标准质保期：<strong>交付后12个月</strong>或<strong>循环次数内</strong>（以先到者为准）。</p>
+                        <p>质保范围：非人为损坏的品质问题（电芯内阻异常、BMS保护失效、PACK结构脱焊等），免费换货。</p>
+                        <p>超出质保期：我们仍提供维修服务，只收材料成本费，不收人工费。每批次留样存档，支持质量追溯，合作多年后您仍可调取历史数据。</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="news" class="section">
+        <div class="container">
+            <h2 class="section-title scroll-animate">电池资讯与干货</h2>
+            <p class="section-subtitle scroll-animate">分享锂电池技术知识，帮您选对、用好、用久电池</p>
+            <div id="news-container" class="news-items scroll-animate">
+                <!-- 由 news-loader.js 从 data/news-data.json 动态渲染 -->
+            </div>
+            <p class="news-update-time" id="news-update-time"></p>
+        </div>
+    </section>
+
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="section-title scroll-animate">关于湖北超沃能源</h2>
+            <div class="about-content scroll-animate">
+                <div class="company-info">
+                    <h3>我们是谁？</h3>
+                    <p>湖北超沃能源科技有限公司，13年专注锂电池组定制、BMS电源管理系统开发与PACK集成生产。不是贸易商，不是贴牌商 —— 我们真正懂电池：精挑电芯、自研BMS、专业封装，让每一块电池包都符合客户设备的实际工况。</p>
+                    <p>我们不造电芯，但我们深度参与电芯的选型与验收。与宁德时代、比亚迪、国轩、亿纬等主流品牌电芯厂保持长期合作，来料100%批次检验，用专业筛选代替盲目信赖。公司坐落于湖北省武汉市东西湖区，拥有10000㎡现代化PACK生产基地，配备自动化组装线与完整检测实验室。</p>
+                    <p>已服务客户包括：大唐移动、清华紫光、The Bright Group、中国电子科技集团、上海广电等500+知名企业与机构。我们理解B2B采购的痛点：交期不准、质量不稳、售后无门 —— 所以我们用"选型为先、质量为本"的理念，让每一次合作都超出预期。</p>
+                    <h3 style="margin-top: 24px;">为什么选我们？</h3>
+                    <ul class="advantage-list">
+                        <li>✅ <strong>专业PACK集成</strong>：非贸易转手，自有生产线，从方案设计到成品交付全程把控</li>
+                        <li>✅ <strong>小批量也做</strong>：打样5-10块起，不设MOQ门槛</li>
+                        <li>✅ <strong>48小时出方案</strong>：告诉我设备型号和需求，最快当天出初步方案</li>
+                        <li>✅ <strong>7天打样</strong>：确认方案后，7个工作日交付样品</li>
+                        <li>✅ <strong>全程可追溯</strong>：每批次留样，生产记录保存3年</li>
+                        <li>✅ <strong>认证齐全</strong>：UN38.3/CE/FCC/RoHS全系列认证，出口无忧</li>
+                    </ul>
+                </div>
+                <div class="company-stats">
+                    <div class="stat">
+                        <div class="stat-number">13</div>
+                        <h4>年行业经验</h4>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-number">10000㎡</div>
+                        <h4>现代化生产基地</h4>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-number">500+</div>
+                        <h4>服务企业客户</h4>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-number">7天</div>
+                        <h4>打样交付周期</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section bg-gray">
+        <div class="container">
+            <h2 class="section-title">联系我们 · 获取定制方案</h2>
+            <p class="section-subtitle">告诉我您的设备型号、电压、容量需求 —— 48小时内给您初步方案</p>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>📞 直接联系</h3>
+                    <p><strong>公司地址：</strong>湖北省武汉市东西湖区十字东街7号</p>
+                    <p><strong>联系电话：</strong><br>
+                        <a href="tel:18062449031" style="color:#00aaff;text-decoration:none;font-size:18px;font-weight:500;">180-6244-9031</a><br>
+                        <a href="tel:13027181161" style="color:#00aaff;text-decoration:none;font-size:18px;font-weight:500;">130-2718-1161</a>
+                    </p>
+                    <p><strong>电子邮箱：</strong><br><a href="mailto:info@chaowo-energy.com" style="color:#00aaff;text-decoration:none;">info@chaowo-energy.com</a></p>
+                    <p><strong>工作时间：</strong>周一至周六 8:30-18:00（支持微信沟通）</p>
+                    <div class="contact-qr" style="margin-top:20px;">
+                        <p><strong>微信扫码咨询：</strong></p>
+                        <p style="color:#888;font-size:13px;">（添加时备注"电池定制"，优先通过）</p>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <h3>📝 在线留言 · 获取方案报价</h3>
+                    <form id="contactForm" novalidate>
+                        <input type="text" name="name" placeholder="您的姓名（必填）" required>
+                        <input type="tel" name="phone" placeholder="联系电话（必填，方便我们及时回复）" required>
+                        <input type="text" name="company" placeholder="公司名称（必填）" required>
+                        <input type="text" name="device" placeholder="设备型号/应用场景（必填，如：植保无人机T30、手持检测仪等）" required>
+                        <textarea name="message" placeholder="详细描述您的需求（可选）：&#10;- 所需电压/容量？&#10;- 工作温度范围？&#10;- 有特殊尺寸/形状要求？&#10;- 是否需要认证（CE/UN38.3等）？&#10;&#10;我们会根据这些信息给您出初步方案和报价。" rows="5"></textarea>
+                        <button type="submit" class="btn" id="submitBtn">提交需求 · 获取定制方案</button>
+                        <p class="form-tip" id="formTip"></p>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-logo">
+                <div class="logo-icon">
+                    <img src="img/CWNY.png" alt="湖北超沃能源" width="88" height="40">
+                </div>
+                <h3>湖北超沃能源科技有限公司</h3>
+            </div>
+            <div class="footer-links">
+                <div class="link-group">
+                    <h4>产品中心</h4>
+                    <ul>
+                        <li><a href="#products">三元锂电池</a></li>
+                        <li><a href="#products">磷酸铁锂电池</a></li>
+                        <li><a href="#products">聚合物锂电池</a></li>
+                        <li><a href="#products">低温/高温锂电池</a></li>
+                        <li><a href="#products">无人机专用电池</a></li>
+                    </ul>
+                </div>
+                <div class="link-group">
+                    <h4>定制服务</h4>
+                    <ul>
+                        <li><a href="#custom">BMS电池管理定制</a></li>
+                        <li><a href="#custom">结构封装定制</a></li>
+                        <li><a href="#custom">电芯参数定制</a></li>
+                        <li><a href="#custom">一体化电池系统</a></li>
+                    </ul>
+                </div>
+                <div class="link-group">
+                    <h4>应用场景</h4>
+                    <ul>
+                        <li><a href="#applications">无人机/植保机</a></li>
+                        <li><a href="#applications">医疗设备</a></li>
+                        <li><a href="#applications">工业机器人</a></li>
+                        <li><a href="#applications">储能系统</a></li>
+                    </ul>
+                </div>
+                <div class="link-group">
+                    <h4>关于超沃</h4>
+                    <ul>
+                        <li><a href="#about">公司简介</a></li>
+                        <li><a href="#technology">技术工艺</a></li>
+                        <li><a href="#news">电池资讯</a></li>
+                        <li><a href="#contact">联系我们</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-contact">
+                <p>📞 180-6244-9031 &nbsp;|&nbsp; ✉️ info@chaowo-energy.com</p>
+                <p>📍 湖北省武汉市东西湖区十字东街7号</p>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2026 湖北超沃能源科技有限公司 版权所有 |  <a href="https://beian.miit.gov.cn/" target="_blank" rel="noopener" style="color:#aaa;text-decoration:underline;">鄂ICP备XXXXXXXX号</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- EmailJS SDK（表单真实提交） -->
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <!-- 悬浮联系按钮 -->
+    <div class="float-contact" id="floatContact">
+        <button class="float-contact-toggle" id="floatToggle" aria-label="联系我们">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81a19.79 19.79 0 01-3.07-8.72A2 2 0 012 0h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L6.09 7.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 14v2.92z"></path>
+            </svg>
+        </button>
+        <div class="float-contact-panel" id="floatPanel">
+            <div class="float-panel-title">快速联系超沃能源</div>
+            <a href="tel:18062449031" class="float-contact-item">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81a19.79 19.79 0 01-3.07-8.72A2 2 0 012 0h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L6.09 7.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 14v2.92z"></path></svg>
+                <span>180-6244-9031</span>
+            </a>
+            <a href="tel:13027181161" class="float-contact-item">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81a19.79 19.79 0 01-3.07-8.72A2 2 0 012 0h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L6.09 7.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 14v2.92z"></path></svg>
+                <span>130-2718-1161</span>
+            </a>
+            <a href="mailto:info@chaowo-energy.com" class="float-contact-item">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+                <span>发送邮件</span>
+            </a>
+            <a href="#contact" class="float-contact-item">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z"></path></svg>
+                <span>在线留言</span>
+            </a>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+    <script src="js/news-loader.js"></script>
+</body>
+</html>

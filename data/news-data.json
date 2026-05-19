@@ -1,0 +1,86 @@
+{
+    "lastUpdated": "2026-05-19",
+    "categories": [
+        {
+            "id": "guide",
+            "icon": "📚",
+            "title": "选型指南",
+            "items": [
+                {
+                    "title": "三元锂vs磷酸铁锂：核心参数对比与选型决策指南",
+                    "url": "https://zhuanlan.zhihu.com/p/1944463196695035970",
+                    "date": "2025-08-28"
+                },
+                {
+                    "title": "光伏储能电池怎么选？厂家教你看懂型号参数",
+                    "url": "http://www.chinahuaniu.cn/answer/15254.html",
+                    "date": "2026-05-11"
+                },
+                {
+                    "title": "储能选型必看：搞懂6个核心参数避免90%踩坑",
+                    "url": "https://www.sohu.com/a/903774886_121749270",
+                    "date": "2025-06-12"
+                },
+                {
+                    "title": "低温锂电池选型终极指南：核心性能拆解与对比",
+                    "url": "https://aikahao.xcar.com.cn/item/3725949.html",
+                    "date": "2025-12-25"
+                }
+            ]
+        },
+        {
+            "id": "industry",
+            "icon": "🏭",
+            "title": "行业动态",
+            "items": [
+                {
+                    "title": "固态电池竞赛白热化：巨头锁定2027量产，小型设备率先上车",
+                    "url": "https://www.nbd.com.cn/articles/2026-05-16/4395652.html",
+                    "date": "2026-05-16"
+                },
+                {
+                    "title": "国轩高科2026全球科技大会：金石全固态电池取得多项重大突破",
+                    "url": "https://auto.gasgoo.com/news/202605/17I70458179C501.shtml",
+                    "date": "2026-05-17"
+                },
+                {
+                    "title": "储能需求狂飙：2025年A股锂电行业谁占先机？",
+                    "url": "https://finance.sina.com.cn/jjxw/2026-05-05/doc-inhwvyta8941981.shtml",
+                    "date": "2026-05-05"
+                },
+                {
+                    "title": "2026年固态电池量产元年：产业化加速狂奔",
+                    "url": "https://www.sina.cn/news/detail/5278556240480103.html",
+                    "date": "2026-03-20"
+                }
+            ]
+        },
+        {
+            "id": "faq",
+            "icon": "❓",
+            "title": "常见问题",
+            "items": [
+                {
+                    "title": "锂电池安全注意事项：使用、存储与运输必读",
+                    "url": "https://www.large-battery.com/zh-CN/blog/summary-of-dos-and-donts-in-lithium-battery-safety-guide/",
+                    "date": "2026-05-16"
+                },
+                {
+                    "title": "GB 47372-2026移动电源新国标解读：针刺试验与析锂检测",
+                    "url": "https://www.gdestl.com/1394.html",
+                    "date": "2026-03-31"
+                },
+                {
+                    "title": "锂电池过充过放测试：安全保护机制与GB/T 31484可靠性解读",
+                    "url": "http://www.xktest.cn/news/show/37966.html",
+                    "date": "2025-12-25"
+                },
+                {
+                    "title": "锂电池寿命的秘密与延长策略：掌握这些让电池耐用更久",
+                    "url": "https://www.sohu.com/a/884878020_121885661",
+                    "date": "2025-04-16"
+                }
+            ]
+        }
+    ]
+}

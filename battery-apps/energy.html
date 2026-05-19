@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>⚡ 应急备电与储能 | 湖北超沃能源科技</title>
+<meta name="description" content="超沃能源应急备电与储能锂电池定制方案：磷酸铁锂·4000次循环·并联扩容。共10款产品，支持来样开发。">
+<link rel="icon" href="../img/CWNY.png">
+<style>
+:root{--c:#d97706;--c08:rgba(217,119,6,0.08);--c10:rgba(217,119,6,0.10);--c15:rgba(217,119,6,0.15);--c18:rgba(217,119,6,0.18);--c20:rgba(217,119,6,0.20);}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC','Hiragino Sans GB',sans-serif;background:#f5f7fa;color:#1a1a2e;line-height:1.6}
+a{color:inherit;text-decoration:none}
+img{max-width:100%;display:block}
+.topbar{background:#fff;border-bottom:1px solid #e2e8f0;padding:0 24px;height:56px;display:flex;align-items:center;justify-content:space-between;position:sticky;top:0;z-index:100;box-shadow:0 1px 3px rgba(0,0,0,.08)}
+.topbar-brand{display:flex;align-items:center;gap:10px;font-weight:700;font-size:15px;color:#1a1a2e}
+.topbar-brand img{height:32px;width:auto}
+.topbar-back{display:flex;align-items:center;gap:6px;font-size:14px;font-weight:600;padding:6px 14px;border:1.5px solid var(--c);border-radius:20px;transition:all .2s;color:var(--c)}
+.topbar-back:hover{background:var(--c);color:#fff}
+.hero{background:linear-gradient(135deg,var(--c15) 0%,var(--c08) 100%);border-bottom:1px solid var(--c20);padding:40px 24px 32px}
+.hero-inner{max-width:1100px;margin:0 auto;display:flex;align-items:center;gap:24px}
+.hero-icon{font-size:60px;line-height:1;flex-shrink:0}
+.hero-text h1{font-size:clamp(22px,4vw,36px);font-weight:800;color:var(--c);margin-bottom:8px}
+.hero-text p{font-size:15px;color:#475569;max-width:500px}
+.hero-meta{display:flex;gap:12px;margin-top:12px;flex-wrap:wrap}
+.hero-tag{background:var(--c18);color:var(--c);padding:4px 12px;border-radius:20px;font-size:13px;font-weight:600}
+.filter-bar{background:#fff;border-bottom:1px solid #e2e8f0;padding:12px 24px;display:flex;gap:8px;flex-wrap:wrap;align-items:center;position:sticky;top:56px;z-index:90}
+.filter-label{font-size:13px;color:#64748b;margin-right:4px}
+.filter-btn{padding:5px 14px;border-radius:20px;border:1.5px solid #e2e8f0;background:#fff;font-size:13px;cursor:pointer;transition:all .15s;white-space:nowrap}
+.filter-btn.active,.filter-btn:hover{border-color:var(--c);background:var(--c);color:#fff}
+.main{max-width:1200px;margin:0 auto;padding:28px 20px 60px}
+.grid-info{display:flex;justify-content:space-between;align-items:center;margin-bottom:20px;flex-wrap:wrap;gap:8px}
+.grid-count{font-size:14px;color:#64748b}
+.product-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:20px}
+.product-card{background:#fff;border-radius:12px;overflow:hidden;box-shadow:0 1px 3px rgba(0,0,0,.08);transition:all .2s;display:flex;flex-direction:column}
+.product-card:hover{box-shadow:0 6px 20px rgba(0,0,0,.12);transform:translateY(-2px)}
+.product-card.hidden{display:none}
+.card-img{position:relative;background:#f8fafc;aspect-ratio:4/3;overflow:hidden;display:flex;align-items:center;justify-content:center}
+.card-img img{width:100%;height:100%;object-fit:contain;padding:12px;transition:transform .3s}
+.product-card:hover .card-img img{transform:scale(1.05)}
+.img-fallback{width:100%;height:100%;display:flex;align-items:center;justify-content:center;background:linear-gradient(135deg,var(--c10),var(--c20))}
+.img-fallback span{font-size:40px;font-weight:800;color:var(--c);opacity:.4}
+.cat-badge{position:absolute;top:8px;right:8px;background:var(--c);color:#fff;font-size:11px;padding:2px 8px;border-radius:10px;font-weight:600}
+.card-body{padding:16px;display:flex;flex-direction:column;flex:1}
+.card-title{font-size:14px;font-weight:700;color:#1a1a2e;margin-bottom:12px;line-height:1.4;min-height:38px}
+.spec-table{width:100%;border-collapse:collapse;font-size:12px;flex:1}
+.spec-table th,.spec-table td{padding:4px 8px;border-bottom:1px solid #f1f5f9;text-align:left;vertical-align:top}
+.spec-table th{width:44%;color:#64748b;font-weight:600;white-space:nowrap}
+.spec-table td{color:#1e293b;font-weight:500}
+.spec-table tr:last-child th,.spec-table tr:last-child td{border-bottom:none}
+.no-spec{font-size:12px;color:#94a3b8;padding:8px 0;line-height:1.5;flex:1}
+.btn-inquire{display:block;margin-top:14px;text-align:center;padding:9px;background:var(--c);color:#fff;border-radius:8px;font-size:13px;font-weight:700;transition:opacity .15s}
+.btn-inquire:hover{opacity:.85}
+.empty-state{grid-column:1/-1;text-align:center;padding:60px 20px;color:#94a3b8}
+.empty-state span{font-size:48px;display:block;margin-bottom:12px}
+.footer{background:#1a1a2e;color:#94a3b8;text-align:center;padding:24px;font-size:13px}
+.footer a{color:var(--c);font-weight:600}
+@media(max-width:640px){
+  .hero-inner{flex-direction:column;text-align:center}
+  .hero-meta{justify-content:center}
+  .product-grid{grid-template-columns:1fr}
+  .filter-bar{top:56px;padding:10px 16px}
+}
+
+</style>
+</head>
+<body>
+<nav class="topbar">
+  <a href="../index.html" class="topbar-brand">
+    <img src="../img/CWNY.png" alt="超沃能源">
+    <span>湖北超沃能源科技</span>
+  </a>
+  <a href="../index.html#applications" class="topbar-back">← 返回应用中心</a>
+</nav>
+<div class="hero">
+  <div class="hero-inner">
+    <div class="hero-icon">⚡</div>
+    <div class="hero-text">
+      <h1>应急备电与储能</h1>
+      <p>专业定制应急备电与储能锂电池解决方案 · 磷酸铁锂·4000次循环·并联扩容</p>
+      <div class="hero-meta">
+        <span class="hero-tag">共10款产品</span>
+        <span class="hero-tag">磷酸铁锂·4000次循环·并联扩容</span>
+        <span class="hero-tag">支持来样定制</span>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="filter-bar">
+  <span class="filter-label">电池类别：</span>
+  <button class="filter-btn active" data-cat="all">全部</button><button class="filter-btn" data-cat="储能锂电池">储能锂电池&nbsp;(9)</button><button class="filter-btn" data-cat="磷酸铁锂电池">磷酸铁锂电池&nbsp;(1)</button>
+</div>
+<main class="main">
+  <div class="grid-info">
+    <span class="grid-count">共 <strong id="visible-count">10</strong> 款产品</span>
+  </div>
+  <div class="product-grid" id="product-grid">
+    <div class="product-card" data-category="储能锂电池"><div class="card-img"><img src="../电池产品图片及规格书/150W户外电源.jpg" alt="CW-NMC-7S-25.9V-42Ah" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"><div class="img-fallback" style="display:none"><span>储能</span></div><span class="cat-badge">储能锂电池</span></div><div class="card-body"><h3 class="card-title">CW-NMC-7S-25.9V-42Ah</h3><div class="card-params"><table class="spec-table"><tr><th>型号</th><td>CW-NMC-7S-25.9V-42Ah</td></tr><tr><th>标称电压</th><td>110V-220V</td></tr><tr><th>标称容量</th><td>42000mAh</td></tr><tr><th>产品分类</th><td>150W户外电源</td></tr><tr><th>应用范围</th><td>户外应急、家庭应急、露营、房车旅行、移动办公</td></tr></table></div><a href="../index.html#contact" class="btn-inquire">咨询报价</a></div></div>
+<div class="product-card" data-category="储能锂电池"><div class="card-img"><img src="../电池产品图片及规格书/220V336.7Wh特种应急电源.jpg" alt="CW-NMC-7S4P-25.9V-13Ah" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"><div class="img-fallback" style="display:none"><span>储能</span></div><span class="cat-badge">储能锂电池</span></div><div class="card-body"><h3 class="card-title">CW-NMC-7S4P-25.9V-13Ah</h3><div class="card-params"><table class="spec-table"><tr><th>型号</th><td>CW-NMC-7S4P-25.9V-13Ah</td></tr><tr><th>电芯规格</th><td>18650/7S4P/25.9V/13Ah</td></tr><tr><th>标称电压</th><td>25.9V 逆变220V输出</td></tr><tr><th>标称容量</th><td>13Ah</td></tr><tr><th>充电电压</th><td>220V</td></tr><tr><th>充电电流</th><td>≤10A</td></tr><tr><th>放电电流</th><td>10A</td></tr><tr><th>截止电压</th><td>21V 稳压</td></tr><tr><th>充电温度</th><td>0～45℃</td></tr><tr><th>放电温度</th><td>-40～60℃</td></tr><tr><th>存储温度</th><td>-20～41 ℃</td></tr><tr><th>外形尺寸</th><td>320×250×125mm</td></tr><tr><th>外壳</th><td>冷轧钣金</td></tr><tr><th>保护功能</th><td>短路保护，过充保护，过放保护，过流保护，温度保护，均衡等</td></tr><tr><th>产品特点</th><td>电量显示：通过显示屏显示电池电量，电流，电压，温度等信息，直观了解电池状况；</td></tr><tr><th>应用领域</th><td>应急电源 UPS</td></tr><tr><th>温度保护</th><td>65℃±6℃</td></tr><tr><th>内置充电</th><td>内置充电模块，220V市电可直接给电池充电。</td></tr><tr><th>输出逆变</th><td>采用100W逆变器，输出电压220V；</td></tr><tr><th>电量计量</th><td>采用库仑计数，精准计量电池组电量。</td></tr></table></div><a href="../index.html#contact" class="btn-inquire">咨询报价</a></div></div>
+<div class="product-card" data-category="储能锂电池"><div class="card-img"><img src="../电池产品图片及规格书/48V储能电池 SSBC-IFR16i-210A.png" alt="CW-LFP-16S-51.2V-210Ah" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"><div class="img-fallback" style="display:none"><span>储能</span></div><span class="cat-badge">储能锂电池</span></div><div class="card-body"><h3 class="card-title">CW-LFP-16S-51.2V-210Ah</h3><div class="card-params"><table class="spec-table"><tr><th>型号</th><td>CW-LFP-16S-51.2V-210Ah</td></tr><tr><th>系列</th><td>储能</td></tr><tr><th>标称电压</th><td>51.2V</td></tr><tr><th>标称容量</th><td>210Ah</td></tr><tr><th>充电电压</th><td>58.4V</td></tr><tr><th>充电时长</th><td>3h</td></tr><tr><th>放电电流</th><td>100A</td></tr><tr><th>充电温度</th><td>0℃～+45℃</td></tr><tr><th>放电温度</th><td>-10℃～+60℃</td></tr><tr><th>外形尺寸</th><td>562x433x243 (mm)</td></tr><tr><th>重量</th><td>75Kg</td></tr><tr><th>循环寿命</th><td>4000 times</td></tr><tr><th>通讯</th><td>RS485/CAN</td></tr></table></div><a href="../index.html#contact" class="btn-inquire">咨询报价</a></div></div>
+<div class="product-card" data-category="储能锂电池"><div class="card-img"><img src="../电池产品图片及规格书/48V储能电池 SSBC-IFR16i-315A.png" alt="CW-LFP-16S-51.2V-315Ah" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"><div class="img-fallback" style="display:none"><span>储能</span></div><span class="cat-badge">储能锂电池</span></div><div class="card-body"><h3 class="card-title">CW-LFP-16S-51.2V-315Ah</h3><div class="card-params"><table class="spec-table"><tr><th>型号</th><td>CW-LFP-16S-51.2V-315Ah</td></tr><tr><th>系列</th><td>储能</td></tr><tr><th>标称电压</th><td>51.2V</td></tr><tr><th>标称容量</th><td>315Ah</td></tr><tr><th>充电电压</th><td>58.4V</td></tr><tr><th>充电时长</th><td>6h</td></tr><tr><th>放电电流</th><td>150A</td></tr><tr><th>充电温度</th><td>0℃～+45℃</td></tr><tr><th>放电温度</th><td>-10℃～+60℃</td></tr><tr><th>外形尺寸</th><td>750x420x240 (mm)</td></tr><tr><th>重量</th><td>105Kg</td></tr><tr><th>循环寿命</th><td>4000 times</td></tr><tr><th>通讯</th><td>RS485/CAN</td></tr></table></div><a href="../index.html#contact" class="btn-inquire">咨询报价</a></div></div>
+<div class="product-card" data-category="储能锂电池"><div class="card-img"><img src="../电池产品图片及规格书/48V储能电池 SSBC-IFR16i-400A.gif" alt="CW-LFP-16S-51.2V-400Ah" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"><div class="img-fallback" style="display:none"><span>储能</span></div><span class="cat-badge">储能锂电池</span></div><div class="card-body"><h3 class="card-title">CW-LFP-16S-51.2V-400Ah</h3><div class="card-params"><table class="spec-table"><tr><th>型号</th><td>CW-LFP-16S-51.2V-400Ah</td></tr><tr><th>系列</th><td>储能</td></tr><tr><th>标称电压</th><td>51.2V</td></tr><tr><th>标称容量</th><td>400Ah</td></tr><tr><th>充电电压</th><td>58.4V</td></tr><tr><th>充电时长</th><td>6h</td></tr><tr><th>放电电流</th><td>200A</td></tr><tr><th>充电温度</th><td>0℃～+45℃</td></tr><tr><th>放电温度</th><td>-10℃～+60℃</td></tr><tr><th>外形尺寸</th><td>800x450x290 (mm)</td></tr><tr><th>重量</th><td>138Kg</td></tr><tr><th>循环寿命</th><td>2000 times</td></tr><tr><th>通讯</th><td>RS485/CAN</td></tr></table></div><a href="../index.html#contact" class="btn-inquire">咨询报价</a></div></div>
+<div class="product-card" data-category="储能锂电池"><div class="card-img"><img src="../电池产品图片及规格书/500W户外电源.jpg" alt="CW-NMC-7S-25.9V-140Ah" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"><div class="img-fallback" style="display:none"><span>储能</span></div><span class="cat-badge">储能锂电池</span></div><div class="card-body"><h3 class="card-title">CW-NMC-7S-25.9V-140Ah</h3><div class="card-params"><table class="spec-table"><tr><th>型号</th><td>CW-NMC-7S-25.9V-140Ah</td></tr><tr><th>标称电压</th><td>110V-220V</td></tr><tr><th>标称容量</th><td>140000mAh</td></tr><tr><th>产品分类</th><td>500W户外电源</td></tr><tr><th>应用范围</th><td>户外应急、家庭应急、露营、房车旅行、移动办公</td></tr></table></div><a href="../index.html#contact" class="btn-inquire">咨询报价</a></div></div>
+<div class="product-card" data-category="储能锂电池"><div class="card-img"><img src="../电池产品图片及规格书/壁挂式储能系统.jpg" alt="CW-LFP-1S" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"><div class="img-fallback" style="display:none"><span>储能</span></div><span class="cat-badge">储能锂电池</span></div><div class="card-body"><h3 class="card-title">CW-LFP-1S</h3><div class="card-params"><table class="spec-table"><tr><th>型号</th><td>CW-LFP-1S</td></tr></table></div><a href="../index.html#contact" class="btn-inquire">咨询报价</a></div></div>
+<div class="product-card" data-category="储能锂电池"><div class="card-img"><img src="../电池产品图片及规格书/应急启动电源电池.jpg" alt="CW-NMC-4S-14.8V-2.5Ah" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"><div class="img-fallback" style="display:none"><span>储能</span></div><span class="cat-badge">储能锂电池</span></div><div class="card-body"><h3 class="card-title">CW-NMC-4S-14.8V-2.5Ah</h3><div class="card-params"><table class="spec-table"><tr><th>型号</th><td>CW-NMC-4S-14.8V-2.5Ah</td></tr><tr><th>组合方式</th><td>4S1P</td></tr><tr><th>标称电压</th><td>14.8V</td></tr><tr><th>标称容量</th><td>2500mAh</td></tr><tr><th>能量</th><td>37Wh</td></tr><tr><th>倍率</th><td>1C/60C/120C</td></tr><tr><th>外形尺寸</th><td>25.5*62*92mm</td></tr><tr><th>重量</th><td>290g</td></tr></table></div><a href="../index.html#contact" class="btn-inquire">咨询报价</a></div></div>
+<div class="product-card" data-category="磷酸铁锂电池"><div class="card-img"><img src="../电池产品图片及规格书/磷酸铁锂储能电池32700-4S3P.png" alt="CW-LFP-4S3P-18Ah" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"><div class="img-fallback" style="display:none"><span>磷酸</span></div><span class="cat-badge">磷酸铁锂电池</span></div><div class="card-body"><h3 class="card-title">CW-LFP-4S3P-18Ah</h3><div class="card-params"><table class="spec-table"><tr><th>型号</th><td>CW-LFP-4S3P-18Ah</td></tr><tr><th>组合方式</th><td>32700-4S3P</td></tr><tr><th>标称容量</th><td>18Ah</td></tr><tr><th>外形尺寸</th><td>230*170*45mm</td></tr><tr><th>产品分类</th><td>磷酸铁锂储能电池</td></tr><tr><th>工作电压范围</th><td>9.2V-14.6V</td></tr><tr><th>应用范围</th><td>浮选设备、磁选设备等</td></tr></table></div><a href="../index.html#contact" class="btn-inquire">咨询报价</a></div></div>
+<div class="product-card" data-category="储能锂电池"><div class="card-img"><img src="../电池产品图片及规格书/通讯基站电源.jpg" alt="CW-NMC-13S-48V-45Ah" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"><div class="img-fallback" style="display:none"><span>储能</span></div><span class="cat-badge">储能锂电池</span></div><div class="card-body"><h3 class="card-title">CW-NMC-13S-48V-45Ah</h3><div class="card-params"><table class="spec-table"><tr><th>型号</th><td>CW-NMC-13S-48V-45Ah</td></tr><tr><th>标称电压</th><td>48V</td></tr><tr><th>标称容量</th><td>45Ah</td></tr><tr><th>充电电压</th><td>55.6V</td></tr><tr><th>充电电流</th><td>标准0.2C，快速0.5C</td></tr><tr><th>外形尺寸</th><td>详见样板工作</td></tr><tr><th>重量</th><td>6.9Kg</td></tr><tr><th>充电方式</th><td>恒流恒压</td></tr><tr><th>过流保护电流</th><td>50A</td></tr><tr><th>过充保护电压</th><td>55.25V</td></tr><tr><th>放电保护电压</th><td>36.4V</td></tr><tr><th>温度</th><td>充电0~45℃，放电-20~60℃</td></tr><tr><th>存储条件</th><td>温度-20~60℃，湿度60±25%</td></tr></table></div><a href="../index.html#contact" class="btn-inquire">咨询报价</a></div></div>
+    <div class="empty-state" id="empty-state" style="display:none">
+      <span>🔍</span><p>没有找到该分类的产品</p>
+    </div>
+  </div>
+</main>
+<footer class="footer">
+  <p>湖北超沃能源科技有限公司 · <a href="../index.html#contact">立即咨询定制</a></p>
+</footer>
+<script>
+(function(){
+  const btns=document.querySelectorAll('.filter-btn');
+  const cards=document.querySelectorAll('.product-card');
+  const countEl=document.getElementById('visible-count');
+  const emptyEl=document.getElementById('empty-state');
+  btns.forEach(function(btn){
+    btn.addEventListener('click',function(){
+      btns.forEach(function(b){b.classList.remove('active');});
+      btn.classList.add('active');
+      const cat=btn.dataset.cat;
+      let visible=0;
+      cards.forEach(function(card){
+        const match=cat==='all'||card.dataset.category===cat;
+        card.classList.toggle('hidden',!match);
+        if(match)visible++;
+      });
+      countEl.textContent=visible;
+      emptyEl.style.display=visible===0?'block':'none';
+    });
+  });
+})();
+</script>
+</body>
+</html>
